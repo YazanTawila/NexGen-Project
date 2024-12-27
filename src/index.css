@@ -24,3 +24,16 @@
     --roboto-mono-font:'Roboto Mono',monospace;
     
 }
+body{
+    padding: 0 50px 0 49px;
+}
+@media(max-width:1440px){
+    body{
+        padding: 0 40px 0 41px;
+    }
+}
+@media(max-width:390px){
+    body{
+        padding: 0 16px 0 17px;
+    }
+}
