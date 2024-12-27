@@ -16,9 +16,9 @@ const Card = () => {
                 NexGen turned our business around!
               </p>
               <p className="mahmoudContentStyle">
-                Their digital marketing strategies helped us reach new customers
-                and increase our revenue by 30% within just a few months. Highly
-                recommended!
+                Their digital marketing strategies helped us reach new
+                customerscustomers and increase our revenue by 30% within just a
+                few months. Highly recommended!
               </p>
             </div>
             <div className="mahmoudImgContainer">
