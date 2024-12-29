@@ -19,21 +19,9 @@
     --absolute-white:#FFFFFF;
     --hover-color:#E7BEB1;  /*  and arrow color */
     --other-grey-color:#81807E;
+    --border-color:#1F1F1F;
     /* Fonts */
     --roboto-font:'Roboto Flex',sans-serif;
     --roboto-mono-font:'Roboto Mono',monospace;
     
-}
-body{
-    padding: 0 50px 0 49px;
-}
-@media(max-width:1440px){
-    body{
-        padding: 0 40px 0 41px;
-    }
-}
-@media(max-width:390px){
-    body{
-        padding: 0 16px 0 17px;
-    }
 }

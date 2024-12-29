@@ -1,13 +1,13 @@
 import React from 'react'
 import './App.css'
 import './index.css'
-import InfiniteScroll from './components/InfiniteScroll/InfiniteScroll'
-import scroll from './Data/data'
+import HomePage from './pages/HomePage'
+
 
 function App() {
   return (
     <div>
-      <InfiniteScroll items={scroll.follow} color="var(--secondary-color)"/>
+      <HomePage/>
     </div>
   )
 }
