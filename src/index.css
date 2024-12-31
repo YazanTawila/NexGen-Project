@@ -3,7 +3,7 @@
 
 *{
     margin: 0;
-    padding: 0;
+    padding: 0px;
     box-sizing: border-box;
 }
 :root{
@@ -24,4 +24,8 @@
     --roboto-font:'Roboto Flex',sans-serif;
     --roboto-mono-font:'Roboto Mono',monospace;
     
+}
+body{
+    height: 1000vh;
+    background-color: var(--primary-color);
 }
