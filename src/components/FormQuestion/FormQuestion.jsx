@@ -3,9 +3,11 @@ import'./FormQuestion.css'
 export default function FormQuestion() {
   return (
     <div className='HM-FormQuestion'>
+      
     <h2 className='hm-Form-Tittel'>Ask your question </h2>
+    <div className='Hm-line'></div>
 <div className='hm-Form-Container'>
-<form className=''>
+<form >
 <label >Name </label>
 <input type="text" required placeholder="Enter your name"></input>
 <label >Email </label>

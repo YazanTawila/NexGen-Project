@@ -7,7 +7,8 @@ import AccrodionQuestion from '../AccrodionQuestion/AccrodionQuestion';
 export default function Question() {
   return (
     <>
-    <div>
+    <div className='Hm-contanier-Question'>
+ <div >
       <Tittel 
         hiedText={false}
         ShowButtonIcon={false}
@@ -21,6 +22,8 @@ export default function Question() {
       <AccrodionQuestion/>
      <FormQuestion />
    </div>
+    </div>
+   
    </>
   )
 }

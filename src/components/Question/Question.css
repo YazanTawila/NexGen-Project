@@ -1,3 +1,4 @@
+
 .HM-Margin{
     margin: 20px 50px;
 }
@@ -17,14 +18,11 @@
         margin: 10px 30px;
     }
 }
-@media (max-width:400px) {
+@media (max-width:620px) {
     .hm-question-content{
         display: flex;
  flex-wrap: wrap;
   gap: 10px;
    align-items: center;
-    }
-    .HM-Margin{
-        margin: 10px 16px;
     }
 }
