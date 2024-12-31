@@ -19,6 +19,9 @@
     --absolute-white:#FFFFFF;
     --hover-color:#E7BEB1;  /*  and arrow color */
     --other-grey-color:#81807E;
+    --buttonicon:#262626;
+    --color-label:#F3DFD8 ;
+    --color-shadow:#0062FF08;
     /* Fonts */
     --roboto-font:'Roboto Flex',sans-serif;
     --roboto-mono-font:'Roboto Mono',monospace;
