@@ -39,7 +39,7 @@ a .MH-lbutton.active{
     border-radius: 14px;
     background-color:var(--secondary-color);
     position: fixed;
-   
+    z-index: 999;
     left: 50%;
     transform: translateX(-50%);
     
@@ -97,9 +97,8 @@ a .MH-lbutton.active{
         display :none;
     } 
     .togle{
-       
         display: flex;
-       height: 44px;
+        height: 44px;
         align-items: center;
         justify-content: center;
         background-color:var(--primary-color);
@@ -108,7 +107,7 @@ a .MH-lbutton.active{
         cursor: pointer;
     }
     .togle img{
-      width: 100%;
+        width: 100%;
     }
     .MH-navTogle.open  {
         width: 50%;
@@ -124,5 +123,5 @@ a .MH-lbutton.active{
         border-radius: 20px;
         padding: 20px 0;
         
-      }
+    }
 }

@@ -11,10 +11,10 @@ const cardData = [
       paragraph:'Share visually appealing snippets of our web projects.'
     },
     {
-     mhMedia:twitter,
-     mhaArrow:arrow,
-     heading:'TWITTER',
-     paragraph:'Tweet about interesting coding challenges.'
+      mhMedia:twitter,
+      mhaArrow:arrow,
+      heading:'TWITTER',
+      paragraph:'Tweet about interesting coding challenges.'
     },
     {
         mhMedia:dribble,

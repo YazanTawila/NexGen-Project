@@ -200,7 +200,7 @@ color: var(--text-color);
 @media (max-width:1901px) {
     .footer{
         display: flex;
-      gap: 10px;
+        gap: 10px;
         padding:10px 40px 40px 41px;
     }
     .mh-footerCards{
@@ -368,7 +368,7 @@ color: var(--text-color);
         justify-content: CENTER;
         gap: 10px;
         padding-bottom: 10px;
-       padding-top: 10px;
+        padding-top: 10px;
     }
     .mh-container{
         width: 81.75px;

@@ -10,6 +10,7 @@ export default function Footer() {
     
   return (
     <>
+    
     <section className='footer'>
     <div className='mh-allCards'>
     <div className='mh-footerCards'>
@@ -28,8 +29,6 @@ export default function Footer() {
             <h3>{card.heading}</h3>
             <p>{card.paragraph}</p>
             </div>
-            
-           
         </div>
     
   ))}
@@ -51,7 +50,7 @@ export default function Footer() {
         <img src={behance} alt="" />
       </div>
     </div>
-       <div className='mh-footerLinks'> 
+        <div className='mh-footerLinks'> 
           <div className='mh-Links'>
             <h3>Home</h3>
             <ul>
@@ -88,31 +87,26 @@ export default function Footer() {
                 
             </ul>
           </div>
-       </div>
-        <div className='mh-newsLetter'>
-          <div className='mh-newsText'>
-           <h4>NEWSLETTER</h4>
-           <p>SUBSCRIBE TO OUR NEWSLETTER</p>
-          </div>
-          <div className='mh-newsInput'>
-           <input type="text" placeholder='Enter your email' />
-           <button className='mh-arrow'><img src={arrow} alt="" /></button>
-          </div>
         </div>
-         <div className='mh-rights'>
-          <p>@ 2024 NwxGen. All rights reserved</p>
-          <div className='mh-terms'>
-          <p>Terms & Conditions</p>
-            <p className='mh-privacy'>Privacy Policy</p>
+          <div className='mh-newsLetter'>
+            <div className='mh-newsText'>
+            <h4>NEWSLETTER</h4>
+            <p>SUBSCRIBE TO OUR NEWSLETTER</p>
             </div>
-         </div>
-
-
-
+            <div className='mh-newsInput'>
+            <input type="text" placeholder='Enter your email' />
+            <button className='mh-arrow'><img src={arrow} alt="" /></button>
+            </div>
+          </div>
+          <div className='mh-rights'>
+            <p>@ 2024 NwxGen. All rights reserved</p>
+            <div className='mh-terms'>
+            <p>Terms & Conditions</p>
+              <p className='mh-privacy'>Privacy Policy</p>
+              </div>
+          </div>
     </div>
     </section>
-   
-   
 
 </>)
 }
