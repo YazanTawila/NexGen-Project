@@ -8,22 +8,22 @@ export default function Question() {
   return (
     <>
     <div className='Hm-contanier-Question'>
- <div >
-      <Tittel 
-        hiedText={false}
-        ShowButtonIcon={false}
-        ImgSrc={ImageSrc}
-        TextHeading={"Frequently Asked Questions"}
-        TextSpan={"View All"}
-        backColor={"var(--secondary-color)"}
-      />
-    </div>
-     <div className="HM-Margin hm-question-content">
-      <AccrodionQuestion/>
-     <FormQuestion />
-   </div>
-    </div>
-   
-   </>
+      <div >
+            <Tittel 
+              hiedText={false}
+              ShowButtonIcon={false}
+              ImgSrc={ImageSrc}
+              TextHeading={"Frequently Asked Questions"}
+              TextSpan={"View All"}
+              backColor={"var(--secondary-color)"}
+            />
+          </div>
+          <div className="HM-Margin hm-question-content">
+            <AccrodionQuestion/>
+          <FormQuestion />
+        </div>
+      </div>
+    
+    </>
   )
 }

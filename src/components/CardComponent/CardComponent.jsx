@@ -1,7 +1,8 @@
 import React from 'react'
 import './CardComponent.css'
-
-function CardComponent({title,desc,img,name,career,cardTitle,cardDesc,}) {
+import ButtonIcon from '../ButtonIcon/ButtonIcon'
+import rightArrow from '../../assets/images/right-arrow.svg'
+function CardComponent({title,desc,img,name,career,cardTitle,cardDesc,ImgSrc}) {
 
     return (
         <div className='YT-Card-Component'>
@@ -19,6 +20,7 @@ function CardComponent({title,desc,img,name,career,cardTitle,cardDesc,}) {
                     </div>
                     
                 </div>
+                <ButtonIcon ImgSrc={rightArrow} iconStyle={'YT-icon'}/>
             </div>
         </div>
         
