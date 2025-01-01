@@ -1,9 +1,9 @@
 import './ButtonIcon.css'
 
-export default function ButtonIcon({ImgSrc , onclick }) {
+export default function ButtonIcon({ImgSrc , onclick,iconStyle }) {
   return (
-    <div>
-      <button onClick= {onclick} className="HM-button-icon" >
+    <div >
+      <button className={iconStyle} onClick= {onclick}  >
       <img src={ImgSrc} alt="titel" ></img>
     </button>
     </div>

@@ -11,27 +11,22 @@ import questions from '../../Data/QuestionData';
 function QuestionItem({ question, answer, isOpen, onChange }) {
   const Imgicon=isOpen===null ? {zad} :{Naqs}
   return (
-    <>
-    
-    
-      <div className="hm-question-title">
-       
-        <button 
-          onClick={() => {
-            if (isOpen) return;
-
-            onChange();
-          }}
-        >
-          {question}  <span><ButtonIcon ImgSrc={Imgicon}/></span>
-        </button>
-        <div className={`hm-question-answer ${isOpen ? "show" : ""}`}>
-          {answer}
-       
-      </div>   
-    </div>
-     
-    </>
+      <>
+        <div className="hm-question-title">
+        
+          <button 
+            onClick={() => {
+              if (isOpen) return;
+              onChange();
+            }}
+          >
+            {question}  <span><ButtonIcon iconStyle={'HM-button-icon'} ImgSrc={Imgicon}/></span>
+          </button>
+          <div className={`hm-question-answer ${isOpen ? "show" : ""}`}>
+            {answer}
+        </div>   
+      </div>
+      </>
   );
 }
 

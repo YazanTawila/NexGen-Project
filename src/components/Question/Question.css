@@ -1,28 +1,30 @@
-
+.Hm-contanier-Question{
+    margin: 120px 50px;
+}
 .HM-Margin{
-    margin: 20px 50px;
+    margin-top: 20px ;
 }
 .hm-question-content{
     display: flex;
     justify-content: space-between;
-   align-items: start;
-   gap: 20px;
+    align-items: start;
+    gap: 20px;
 
 
 }
 @media (max-width:1440px) {
     .hm-question-content{
-  gap: 10px;
+        gap: 10px;
     }
     .HM-Margin{
-        margin: 10px 30px;
+        margin-top: 10px ;
     }
 }
 @media (max-width:620px) {
     .hm-question-content{
         display: flex;
- flex-wrap: wrap;
-  gap: 10px;
-   align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
     }
 }
