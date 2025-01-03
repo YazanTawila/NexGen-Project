@@ -1,0 +1,13 @@
+.Hm-contanier-Stories{
+    margin: 120px 50px;
+    }
+    @media (max-width:1440px) {
+        .Hm-contanier-Stories{
+            margin: 80px 40px;
+            }
+        }
+        @media (max-width:990px) {
+            .Hm-contanier-Stories{
+                margin: 50px 16px;
+                }
+            }
