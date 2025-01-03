@@ -10,10 +10,10 @@ import OurWorks from '../components/OurWorks/OurWorks'
 export default function HomePage() {
   return (
     <div>
-        {/* <NavBar /> */}
+        <NavBar />
         <ReasonsToChoose/>
         <OurWorks/>
-        {/* <Question/> */}
+        <Question/>
         <Testimonial/>
         <InfiniteScroll items={scroll.follow} color={'var(--secondary-color)'}/>
         {/* <Footer/> */}
