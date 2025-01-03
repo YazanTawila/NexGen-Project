@@ -1,0 +1,137 @@
+.HM-FormQuestion{
+    background-color: var( --secondary-color);
+    border-radius: 14px ;
+    padding: 60px; 
+    width: 746px;
+    box-shadow: 10px 10px 50px 0px var( --color-shadow);
+}
+.hm-Form-Tittel{
+   color:var( --titles-color) ;
+   font-family: var( --roboto-font);
+   font-size: 24px;
+   line-height: 36px;
+   font-weight: 500;
+ 
+  
+}
+.Hm-line{
+  border-bottom: 1px solid var(--buttonicon);
+}
+.hm-Form-Container{
+    gap: 20px;
+    display: flex; 
+    flex-direction: column;
+    justify-items: center;
+    margin: 50px 60px 70px 50px ;
+}
+.hm-Form-Container label{
+color: var(--color-label);
+display: flex;
+justify-items: start;
+font-size: 18px;
+font-weight: 500;
+line-height: 24px;
+font-family: var(--roboto-font);
+margin: 10px 0px;
+
+}
+.hm-Form-Container input , .hm-Form-Container textarea{
+    padding: 24px;
+    background-color: var(--primary-color);
+    border-radius: 10px ;
+    width: 100%;
+    font-family: var(--roboto-font);
+   
+}
+.hm-Form-button{
+    background-color: var(--orange-color);
+    color: var( --primary-color);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    font-family: var(--roboto-font);
+    text-align: center;
+    padding: 18px 24px ;
+    border-radius: 12px; 
+    border: none;
+    margin: 30px 0px 60px 0px ;
+}
+@media (max-width:1440px) {
+    
+    .hm-Form-Container{
+    margin: 30px 50px;
+    }
+    .HM-FormQuestion{
+        padding: 50px ;
+        width: 561px;
+    }
+    .hm-Form-Tittel{
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 500;
+        margin: 50px;
+
+     }  
+     .hm-Form-Container label{
+        font-size: 16px;
+        line-height: 24px;
+        margin: 8px 0px ;
+       
+     }
+     .hm-Form-Container input , .hm-Form-Container textarea{
+        padding: 20px;
+        border-radius: 8px ; 
+        width: 100%;
+       
+    } 
+    .hm-Form-button{
+        font-size: 18px;
+        line-height: 27px;
+        padding: 18px 24px ;
+        border-radius: 12px; 
+       margin: 30px 0px 50px 0px;
+    }
+
+}
+@media (max-width:950px) {
+    .HM-FormQuestion{
+        padding: 40px ;
+       
+    }
+}
+    @media (max-width:750px) {
+        .HM-FormQuestion{
+            padding: 30px ;
+           
+        }
+   
+    .hm-Form-button{
+        font-size: 20px;
+    }
+}
+@media (max-width:395px) {
+    .hm-Form-Container{
+        margin:10px 0px ;
+    }
+    .HM-FormQuestion{
+        padding: 30px ;
+        width: 358px;
+    }
+    .hm-Form-Tittel{
+        font-size: 18px;
+        line-height: 27px;
+        margin: 30px;
+
+     }  
+     .hm-Form-Container input , .hm-Form-Container textarea{
+        padding: 16px;
+        width: 100%;
+    } 
+    .hm-Form-button{
+        font-size: 18px;
+        line-height: 27px;
+        padding: 18px 20px ;
+        border-radius: 12px; 
+        margin: 16px 0px;
+    } 
+}
