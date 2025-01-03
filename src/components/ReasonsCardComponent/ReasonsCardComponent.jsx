@@ -15,8 +15,9 @@ function ReasonsCardComponent({title,desc}) {
                     ImgSrc={ImageSrc}
                     TextSpan={"Learn More"}
                     backColor={"var(--secondary-color)"}
+                    bttonandiconstyle={'YT-bttonandiconstyle'}
                     iconStyle={'YT-BlackIcon'}
-                    buttonTextStyle={'YT-Button-Text-Style'}
+                    ButtonText={'YT-Button-Text-Style'}
                     />
         </div>
     )

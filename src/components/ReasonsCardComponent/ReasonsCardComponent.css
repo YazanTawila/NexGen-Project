@@ -6,6 +6,11 @@
     background-color: var(--secondary-color);
     border-radius: 14px;
 }
+.YT-bttonandiconstyle{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 .YT-ReasonsCardComponent-Title{
     font-family: var(--roboto-font);
     font-size: 30px;
@@ -48,6 +53,9 @@
         padding: 30px;
         width: 327.5px;
         
+    }
+    .YT-bttonandiconstyle{
+        gap: 8px;
     }
     .YT-ReasonsCardComponent-Title{
         font-size: 22px;

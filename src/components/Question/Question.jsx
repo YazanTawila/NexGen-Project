@@ -3,7 +3,7 @@ import './Question.css'
 import ImageSrc from "../../assets/images/arrow.svg";
 import FormQuestion from '../FormQuestion/FormQuestion';
 import AccrodionQuestion from '../AccrodionQuestion/AccrodionQuestion';
-import OurServeceCard from '../OurServeceCard/OurServeceCard';
+// import OurServeceCard from '../OurServeceCard/OurServeceCard';
 
 export default function Question() {
   return (
@@ -23,7 +23,7 @@ export default function Question() {
           <FormQuestion />
 
         </div>
-       <OurServeceCard/>
+        {/* <OurServeceCard/> */}
       </div>
     
     </>
