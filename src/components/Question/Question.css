@@ -20,7 +20,7 @@
         margin-top: 10px ;
     }
 }
-@media (max-width:620px) {
+@media (max-width:770px) {
     .hm-question-content{
         display: flex;
         flex-wrap: wrap;

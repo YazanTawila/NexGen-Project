@@ -10,7 +10,7 @@ import Question from '../components/Question/Question'
 export default function HomePage() {
   return (
     <div>
-        {/* <NavBar /> */}
+         <NavBar /> 
         <Question/>
         <Testimonial/>
         {/* <InfiniteScroll items={scroll.follow} color={'var(--secondary-color)'}/> */}

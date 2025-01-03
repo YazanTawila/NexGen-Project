@@ -1,12 +1,13 @@
 import  './ButtonTextandIcon.css'
 import ButtonIcon from"../ButtonIcon/ButtonIcon"
-export default function ButtonTextandIcon({ShowButtonIcon, ImgSrc, backColor ,hiedText ,TextSpan }) {
+import { Link } from 'react-router-dom'
+export default function ButtonTextandIcon({ShowButtonIcon, ImgSrc, bttonandiconstyle ,hiedText ,TextSpan ,ButtonText}) {
   return (
     <div >
-      <button className='Hm-ButtonTextandIcon' style={{backgroundColor:backColor}}>
+      <Link className={bttonandiconstyle} >
       {!ShowButtonIcon && < ButtonIcon iconStyle={'HM-button-icon'} ImgSrc={ImgSrc} /> } 
-      {!hiedText &&<span className=' Hm-ButtonText'>{TextSpan}</span>}
-    </button>
+      {!hiedText &&<span  className={ButtonText}>{TextSpan}</span>}
+    </Link>
     </div>
   )
 }
