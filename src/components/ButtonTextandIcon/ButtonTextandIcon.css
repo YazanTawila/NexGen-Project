@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     gap: 8px;
-    border: 1px solid var(--secondary-color);
+    text-decoration: none;
 }
 .Hm-ButtonText{
         color: var(--text-color);
@@ -30,7 +30,7 @@
     }
 }
 
-@media(max-width:395px){
+@media(max-width:550px){
     .Hm-ButtonTextandIcon{
         display: none;
         }
