@@ -1,6 +1,7 @@
 import React from 'react'
 import './InfiniteScroll.css'
-import Marquee from 'react-fast-marquee' 
+
+import Marquee from 'react-fast-marquee'
 import circle from './../../assets/images/Shape.svg'
 
 function InfiniteScroll({ items ,color,css}) {
