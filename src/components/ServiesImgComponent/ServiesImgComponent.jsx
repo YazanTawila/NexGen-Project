@@ -5,9 +5,9 @@ export default function ServiesImgComponent() {
   return (
     <>
     <div className='hm-ServiesCom'>
-    {DataOurServiesImg?.map((s)=>{
+    {DataOurServiesImg?.map((h)=>{
                 return(
-                    < ServiecCardImg key={s.id} textheading={s.textheading} web1={s.web1} web2={s.web2}
+                    < ServiecCardImg key={h.id} textheading={h.textheading} img1={h.img1} img2={h.img2}
                     />
                 )
             })}

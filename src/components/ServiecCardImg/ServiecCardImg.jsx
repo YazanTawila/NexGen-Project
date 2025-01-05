@@ -2,7 +2,7 @@ import "./ServiecCardImg.css";
 import ButtonTextandIcon from "../ButtonTextandIcon/ButtonTextandIcon";
 import Arrow from "../../assets/images/arrowblack.svg";
 import ImgSrc from "../../assets/images/arrow.svg";
-export default function ServiecCardImg({web1,web2,textheading}) {
+export default function ServiecCardImg({img1,img2,textheading}) {
   return (
     <>
   
@@ -21,7 +21,7 @@ export default function ServiecCardImg({web1,web2,textheading}) {
           </div >
           <div className="hm-seviesImg">
             <div className="hm-seviesImg1">
-             <img src={web1} className="hm-mark"></img>
+             <img src={img1} className="hm-mark"></img>
              <div className="hm-text">
              <ButtonTextandIcon
                 bttonandiconstyle={"Hm-ButtonServies"}
@@ -35,7 +35,7 @@ export default function ServiecCardImg({web1,web2,textheading}) {
              </div>
             </div>
             <div className="hm-seviesImg1">
-             <img src={web2} className="hm-mark"></img>
+             <img src={img2} className="hm-mark"></img>
              <div className="hm-text">
              <ButtonTextandIcon
                 bttonandiconstyle={"Hm-ButtonServies"}
