@@ -1,11 +1,12 @@
+.hm-Container{
+   width:953px ;   
+}
 .hm-tabsbutton {
     display: flex;
     align-items: start;
-    gap: 12px;
-    
+    gap: 12px;   
 }
 .hm-tabscontanier{
-    width: 953px;
     border-radius: 14px;
     padding: 40px;
     background-color: var( --border-color) ; 
@@ -29,11 +30,12 @@
 @media (max-width:1440px) {
     .hm-tabsbutton {
         display: flex;
-        gap: 10px;
-        
+        gap: 10px;   
     }
+    .hm-Container{
+        width:656px ;   
+     }
     .hm-tabscontanier{
-        width: 695px;
         border-radius: 12px;
         padding: 30px;
     }
@@ -47,9 +49,17 @@
 }
 
 @media (max-width:790px) {
-    .hm-tabscontanier{
+    .hm-tabsbutton {
+        display: flex;
+        gap: 10px;
         width: 338px;
+    }
+    .hm-Container{
+        width:338px ;   
+     }
+    .hm-tabscontanier{
         padding: 24px;
+        width:338px ;  
     }
     .hm-tabscontanier h2{
         font-size: 24px;

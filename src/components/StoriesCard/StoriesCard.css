@@ -17,7 +17,7 @@
     border-radius: 12px;
     }
 }
-@media (max-width:390px) {
+@media (max-width:770px) {
     .hm-StoriesCard{
         width:383px;
         border-radius: 10px;
