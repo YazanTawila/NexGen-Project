@@ -1,0 +1,17 @@
+.OurServicesCard{
+    width: 880px;
+    background-color: var(--secondary-color);
+    padding: 80px;
+    border-radius: 14px;
+}
+.OurServicesCardTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.OurServicesCardLink{
+    text-decoration: none;
+}
+.OurServicesCard p{
+    color: var(--text-color);
+}

@@ -8,17 +8,17 @@ export default function StoriesTitel() {
     <>
     <div className='hm-StoreCard-titel'>
       <StoriesIcon Icon={GhostSmile} 
-           ShowText={false}
-           ShowImg={false}
+          ShowText={false}
+          ShowImg={false}
           Text={'Klothink'} 
-         />
+          />
       <ButtonTextandIcon  bttonandiconstyle={'hm-StoreCard-titel-buuton'} 
         hiedText={false}
           ShowButtonIcon={false}
           ImgSrc={ImgeSrc}
           TextSpan={'Visit Website'} 
           ButtonText={'Hm-ButtonText'}
-         
+          iconStyle={'HM-button-icon'}
       />
     </div>
     </>

@@ -9,7 +9,7 @@
         color: var(--text-color);
         font-size: 20px;
         font-weight: 500;
-        font-family: var(  --roboto-mono-font);
+        font-family: var(--roboto-mono-font);
         line-height:30px;
 }
 @media(max-width:1440px){

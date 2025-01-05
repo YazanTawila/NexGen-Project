@@ -6,6 +6,10 @@ padding: 10px 16px;
 display: flex;
 gap: 4px;
 }
+.hm-StoriesDivComponent{
+    display: flex;
+    gap:12px
+}
 .hm-StoriesDiv span{
     font-size: 18px;
     font-weight: 400;
@@ -13,7 +17,7 @@ gap: 4px;
     color: var( --text-color);
     font-family: var(--roboto-font);
 }
- .hm-childtext{
+.hm-childtext{
     font-weight: 500;
     color:var( --grey-color) ;
     font-size: 18px;
