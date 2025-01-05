@@ -13,8 +13,8 @@ const handleButtonOnclick=(index)=>{
 
   return (
     <>
-    <div>
-    <div className='hm-tabsbutton'>
+    <div  className='hm-Container'>
+    <div  className='hm-tabsbutton'>
       {TabsButtonTittel?.map((button,index) =>(
        <ButtonTabs
        buttonStyle={'hm-tabbutton'} key={button.id}

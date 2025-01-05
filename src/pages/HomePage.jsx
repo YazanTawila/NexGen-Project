@@ -10,6 +10,7 @@ import ReasonsToChoose from '../components/ReasonsToChoose/ReasonsToChoose'
 export default function HomePage() {
   return (
     <div>
+
         <NavBar /> 
         <ReasonsToChoose/>
         <Question/>
