@@ -9,14 +9,14 @@ import questions from '../../Data/QuestionData';
 
 
 function QuestionItem({ question, answer, isOpen, onChange }) {
-  const Imgicon=isOpen===null ? {zad} :{Naqs}
+  const Imgicon=isOpen ?Naqs  :zad
   return (
       <>
         <div className="hm-question-title">
         
           <button 
             onClick={() => {
-              if (isOpen) return;
+             
               onChange();
             }}
           >
@@ -44,7 +44,7 @@ export default function AccrodionQuestion() {
               answer={item.answer}
               isOpen={index === i}
               onChange={() => {
-                setIndex(i);
+                setIndex(index === i ? null :i );
               }}
             />
           ))}

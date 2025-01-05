@@ -1,0 +1,57 @@
+.hm-StoriesDivComponent{
+    display: flex;
+    gap:12px
+}
+.hm-StoriesDiv {
+border:  1px solid var( --secondary-color);
+background-color: var( --buttonicon);
+border-radius: 45px;
+padding: 10px 16px;
+display: flex;
+gap: 4px;
+}
+.hm-StoriesDiv span{
+    font-size: 18px;
+    font-weight: 400;
+    line-height:27px;
+    color: var( --text-color);
+    font-family: var(--roboto-font);
+}
+ .hm-childtext{
+    font-weight: 500;
+    color:var( --grey-color) ;
+    font-size: 18px;
+    line-height:27px;
+    color: var( --text-color);
+    font-family: var(--roboto-font);
+}
+@media (max-width:1440px) {
+    .hm-StoriesDiv {
+        border-radius: 45px;
+        padding: 10px 16px;
+        display: flex;
+        gap: 8px;
+        }
+    .hm-StoriesDiv span{
+        font-size: 16px;
+        line-height:24px;
+    }
+    .hm-StoriesDivComponent{
+        display: flex;
+        flex-wrap: wrap;
+        gap:10px
+    }
+}
+
+
+@media (max-width:390px) {
+    .hm-StoriesDiv span{
+        font-size: 14px;
+        line-height:21px;
+    }
+    .hm-StoriesDivComponent{
+        display: flex;
+        flex-wrap: wrap;
+        gap:8px
+    }  
+}

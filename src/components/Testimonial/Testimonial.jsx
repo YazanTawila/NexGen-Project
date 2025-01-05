@@ -4,10 +4,11 @@ import './Testimonial.css'
 import TestimonialCardData from '../../Data/TestimonialCardData'
 import Tittel from '../Tittel/Tittel'
 import ImageSrc from "../../assets/images/arrow.svg";
-
+import ButtonIcon from '../ButtonIcon/ButtonIcon'
+import rightArrow from '../../assets/images/right-arrow.svg'
 function Testimonial() {
     return (
-        <div className='Testimonial'>
+        <div className='YT-Testimonial'>
             <Tittel
             hiedText={false}
             ShowButtonIcon={false}
