@@ -5,14 +5,26 @@ import Testimonial from '../components/Testimonial/Testimonial'
 import InfiniteScroll from '../components/InfiniteScroll/InfiniteScroll'
 import scroll from '../Data/data'
 import Question from '../components/Question/Question'
+import ReasonsToChoose from '../components/ReasonsToChoose/ReasonsToChoose'
+
 export default function HomePage() {
   return (
     <div>
-          <NavBar /> 
+<<<<<<< HEAD
+        <NavBar />
         <Question/>
         <Testimonial/>
         <InfiniteScroll items={scroll.follow} color={'var(--secondary-color)'}/>
-        {/* <Footer/> */}
+        
+=======
+
+        <NavBar /> 
+        <ReasonsToChoose/>
+        <Question/>
+        <Testimonial/>
+        <InfiniteScroll items={scroll.follow} color={'var(--secondary-color)'}/>
+>>>>>>> 0868e24c37e8f114e63b1272ce505e38ef4414a3
+        <Footer/>
     </div>
   )
 }

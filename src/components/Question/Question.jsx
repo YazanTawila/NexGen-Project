@@ -3,6 +3,7 @@ import './Question.css'
 import ImageSrc from "../../assets/images/arrow.svg";
 import FormQuestion from '../FormQuestion/FormQuestion';
 import AccrodionQuestion from '../AccrodionQuestion/AccrodionQuestion';
+
 export default function Question() {
   return (
     <>
