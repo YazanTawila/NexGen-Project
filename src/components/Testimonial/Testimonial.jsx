@@ -13,8 +13,8 @@ function Testimonial() {
             hiedText={false}
             ShowButtonIcon={false}
             ImgSrc={ImageSrc}
-            TextHeading={"Testimonials"}
-            TextSpan={"ALL Testimonials"}
+            TextHeading={"TESTIMONIALS"}
+            TextSpan={"ALL TESTIMONIALS"}
             backColor={"var(--secondary-color)"}
             />
             <Cards TestimonialCardData={TestimonialCardData}/>

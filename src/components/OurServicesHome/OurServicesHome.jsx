@@ -14,7 +14,7 @@ function OurServicesHome() {
                 
                 backColor={"var(--secondary-color)"}
             />
-            <OurServicesHomeCards/>
+            <OurServicesHomeCards OurServicesCardsFather={'YT-OurServicesCards'}/>
         </div>
     )
 }

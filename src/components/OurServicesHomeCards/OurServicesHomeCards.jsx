@@ -1,9 +1,20 @@
 import React from 'react'
 import OurServicesHomeCardComp from '../OurServicesHomeCardComp/OurServicesHomeCardComp'
 import './OurServicesHomeCards.css'
-function OurServicesHomeCards() {
+import OurServicesCard from '../../Data/OurServicesCard'
+function OurServicesHomeCards({OurServicesCardsFather}) {
     return (
-        <OurServicesHomeCardComp TextSpan={'Book A Call'} Text={'Web Design'}/>
+        <div className={OurServicesCardsFather}>
+            {OurServicesCard?.map((e,index)=>{
+                return(
+                    <OurServicesHomeCardComp OurServicesclass={' YT-OurServicesCardLink'}  Text={e.title} Icon={e.img}
+                    desc={e.desc} price={e.price} 
+                    />
+                )
+            })}
+            
+        </div>
+        
     )
 }
 

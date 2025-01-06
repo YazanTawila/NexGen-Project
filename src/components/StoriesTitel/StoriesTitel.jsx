@@ -1,24 +1,25 @@
 import './StoriesTitel.css'
 import StoriesIcon from '../StoriesIcon/StoriesIcon'
 import ButtonTextandIcon from '../ButtonTextandIcon/ButtonTextandIcon'
-import GhostSmile from "../../assets/images/Ghost-Smile.svg"
+//import GhostSmile from "../../assets/images/Ghost-Smile.svg"
 import ImgeSrc from '../../assets/images/arrow.svg'
-export default function StoriesTitel() {
+export default function StoriesTitel({Text ,Icon,TextSpan,bttonandiconstyle,ShowButtonIcon} ) {
   return (
     <>
     <div className='hm-StoreCard-titel'>
-      <StoriesIcon Icon={GhostSmile} 
-          ShowText={false}
-          ShowImg={false}
-          Text={'Klothink'} 
-          />
+      <StoriesIcon Icon={Icon} 
+           ShowText={false}
+           ShowImg={false}
+          Text={Text} 
+         />
       <ButtonTextandIcon  bttonandiconstyle={'hm-StoreCard-titel-buuton'} 
         hiedText={false}
           ShowButtonIcon={false}
           ImgSrc={ImgeSrc}
-          TextSpan={'Visit Website'} 
+          TextSpan={TextSpan} 
           ButtonText={'Hm-ButtonText'}
           iconStyle={'HM-button-icon'}
+         
       />
     </div>
     </>

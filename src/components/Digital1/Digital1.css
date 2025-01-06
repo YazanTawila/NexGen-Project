@@ -1,19 +1,16 @@
-body {
-    margin-left: 49px;
-    margin-right: 50px;
-}
-
 .Father-Digital {
     background-color: var(--orange-color);
     padding: 80px;
     border-radius: 20px;
     display: flex;
-    width: 100%;
     align-items: end;
     justify-content: space-between;
+    margin-left: 49px;
+    margin-right: 50px;
+    margin-bottom: 20px;
 }
 
-.rh_Child1 {
+.RH_Child1 {
     width: 71.4629%;
 }
 
@@ -62,7 +59,7 @@ body {
         border-radius: 16px;
     }
 
-    .rh_Child1 {
+    .RH_Child1 {
         width: 74.01%;
     }
 
@@ -123,7 +120,7 @@ body {
         align-items: center;
     }
 
-    .rh_Child1 {
+    .RH_Child1 {
         width: 100%;
     }
 

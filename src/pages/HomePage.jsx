@@ -7,15 +7,20 @@ import scroll from '../Data/data'
 import Question from '../components/Question/Question'
 import ReasonsToChoose from '../components/ReasonsToChoose/ReasonsToChoose'
 import OurServicesHome from '../components/OurServicesHome/OurServicesHome'
+import Digital1 from '../components/Digital1/Digital1'
+import OurWorks from '../components/OurWorks/OurWorks'
 
 export default function HomePage() {
   return (
     <div>
+
         <NavBar /> 
         <ReasonsToChoose/>
-        {/* <OurServicesHome/> */}
-        <Question/>
+        <OurServicesHome/>
+        <OurWorks/>
         <Testimonial/>
+        <Question/>
+        <Digital1/>
         <InfiniteScroll items={scroll.follow} color={'var(--secondary-color)'}/>
         <Footer/>
     </div>

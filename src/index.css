@@ -25,9 +25,9 @@
     --buttonicon:#262626;
     --color-label:#F3DFD8 ;
     --color-shadow:#0062FF08;
-
+    --border-radius-color:#333333,
     /* Fonts */
-    --roboto-font:'Roboto Flex',sans-serif;
+    --roboto-font:"Roboto Flex", serif;
     --roboto-mono-font:'Roboto Mono',monospace;
     
 }

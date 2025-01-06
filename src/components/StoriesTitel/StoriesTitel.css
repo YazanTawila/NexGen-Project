@@ -13,6 +13,7 @@
 
 @media (max-width:770px) {
     .hm-StoreCard-titel{
+        display: flex;
    flex-wrap: wrap;
    gap: 20px;
     } 
