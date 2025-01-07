@@ -1,5 +1,9 @@
+a{
+    list-style: none;
+    text-decoration: none;
+}
 .ourBlogs{
-    margin: 120px 50px 0px 50px;
+    margin: 191px 50px 0px 50px;
     padding:20px;
     border: solid 2px var(--border-color);
     border-radius: 24px;
@@ -128,8 +132,10 @@ color: var(--titles-color);
 }
 @media (max-width:1600px) {
     .ourBlogs{
+        margin: 169px 50px 0 50px;
+        border: none;
         margin: 100px 40px;
-        padding:0px;
+        padding-top:50px;
     } 
     .mh-blogs{
         padding-top: 10px;
@@ -190,4 +196,11 @@ color: var(--titles-color);
     .mh-bigCard{
         display: none;
     }
+    .ourBlogs{
+        border: solid 2px var(--border-color);
+        margin: 133px 40px 0 40px;
+        padding:10px;
+        overflow: hidden;
+        
+    } 
 }

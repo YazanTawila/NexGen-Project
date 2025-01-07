@@ -10,7 +10,7 @@ import ReasonsToChoose from '../components/ReasonsToChoose/ReasonsToChoose'
 export default function HomePage() {
   return (
     <div>
-<<<<<<< HEAD
+
         <NavBar />
         <Question/>
         <Testimonial/>
@@ -23,7 +23,7 @@ export default function HomePage() {
         <Question/>
         <Testimonial/>
         <InfiniteScroll items={scroll.follow} color={'var(--secondary-color)'}/>
->>>>>>> 0868e24c37e8f114e63b1272ce505e38ef4414a3
+
         <Footer/>
     </div>
   )
