@@ -198,7 +198,7 @@ color: var(--titles-color);
     }
     .ourBlogs{
         border: solid 2px var(--border-color);
-        margin: 133px 40px 0 40px;
+        margin: 133px 16px 0 16px;
         padding:10px;
         overflow: hidden;
         
