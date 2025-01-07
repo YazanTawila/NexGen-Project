@@ -1,0 +1,94 @@
+.YT-OurWorksBodyCard{
+    margin-top: 20px ;
+    padding: 20px;
+    border: 2px solid var(--border-color);
+    border-radius: 20px;
+    display: flex;
+    gap: 20px;
+}
+.YT-OurWorksLeftCard{
+    width: 33.33%;
+    padding: 60px 40px;
+    border-radius: 14px;
+    background-color: var(--secondary-color);
+}
+.YT-AboutLeftCard{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0px;
+    gap:12px
+}
+.YT-AboutLeftCardDesc{
+    font-family: var(--roboto-font);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--text-color);
+}
+.YT-OurWorksCenterCard{
+    width: 33.33%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 14px;
+}
+.YT-OurWorksCenterCard img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.YT-OurWorksRightCard{
+    width: 33.33%;
+}
+.YT-TechnologiesUsed{
+    padding: 40px;
+    border-radius: 14px;
+    background-color: var(--secondary-color);
+}
+.YT-TechnologiesUsed h4 , .YT-TeamMembers h4{
+    font-family: var(--roboto-font);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: var(--absolute-white);
+    text-transform: uppercase;
+}
+.YT-TechnologiesUsedUL{
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+.YT-TechnologiesUsedUL li{
+    background-color: var(--border-color);
+    width: fit-content;
+    padding: 10px 16px;
+    border-radius: 45px;
+    font-family: var(--roboto-mono-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey-color);
+}
+.YT-TeamMembers{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    padding: 20px 40px;
+    border-radius: 14px;
+    background-color: var(--secondary-color);
+    margin: 20px 0px;
+}
+.YT-TeamMembersImages{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.YT-TeamMembersImages div img{
+    width: 50px;
+}

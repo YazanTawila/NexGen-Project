@@ -5,13 +5,13 @@ export default function StoriesDiv({childtext1,secondtext1,childtext2,secondtext
     <>
     <div  className={styleStoriesDiv}>
     <div className='hm-StoriesDiv' >
-      <span>{childtext1}</span>
+      <p>{childtext1}</p>
       <img src={shap}></img>
       <span className='hm-childtext'>{secondtext1}</span>
      
     </div>
     <div className='hm-StoriesDiv' >
-      <span>{childtext2}</span>
+      <p>{childtext2}</p>
       <img src={shap}></img>
       <span className='hm-childtext'>{secondtext2}</span>
      

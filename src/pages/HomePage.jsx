@@ -13,11 +13,10 @@ import OurWorks from '../components/OurWorks/OurWorks'
 export default function HomePage() {
   return (
     <div>
-
         <NavBar /> 
         <ReasonsToChoose/>
         <OurServicesHome/>
-        <OurWorks/>
+        {/* <OurWorks/> */}
         <Testimonial/>
         <Question/>
         <Digital1/>

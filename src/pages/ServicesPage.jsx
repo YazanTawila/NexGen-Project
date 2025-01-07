@@ -7,17 +7,21 @@ import SuccessStoriesCompon from '../components/SuccessStoriesCompon/SuccessStor
 import Digital1 from '../components/Digital1/Digital1'
 import Footer from '../components/Footer/Footer'
 import Question from '../components/Question/Question'
-//import OurServiecCard from '../components/OurServiecCard/OurServiecCard'
+import OurSeviecs from '../components/OurSeviecs/OurSeviecs'
 export default function ServicesPage() {
   return (
     <div>
         <NavBar /> 
+        <OurSeviecs/>
         <SuccessStoriesCompon/>
         <Testimonial/>
         <Question/>
         <Digital1/>
         <InfiniteScroll items={scroll.follow} color={'var(--secondary-color)'}/>
         <Footer/>
+        <OurSeviecs/>
+        <SuccessStoriesCompon/>
+        
     </div>
   )
 }
