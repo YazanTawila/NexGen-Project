@@ -13,7 +13,8 @@ export default function OurSeviecs() {
                     TextHeading={"Our Services"}
                   />
                 </div>
-         <ServiesImgComponent/>
+                
+          <ServiesImgComponent/>
       </div>
     </>
   )

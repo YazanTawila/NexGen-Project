@@ -1,0 +1,14 @@
+.YT-OurWorks{
+    margin: 120px 50px;
+    background-color: var(--primary-color);
+}
+@media(max-width:1440px){
+    .YT-OurWorks{
+        margin: 80px 40px;
+    }
+}
+@media(max-width:420px){
+    .YT-OurWorks{
+        margin: 50px 16px;
+    }
+}
