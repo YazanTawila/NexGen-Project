@@ -1,23 +1,19 @@
-import React from 'react'
-import Tittel from '../Tittel/Tittel'
+import React, { useState } from 'react'
 import './ourBlogs.css'
 import arrow from '../../assets/images/arrow.svg'
 import OurBlogsCards from '../OurBlogsCards/OurBlogsCards'
+import { Link } from 'react-router-dom'
+import BlogsTittle from '../BlogsTittle/BlogsTittle'
 export default function OurBlogs() {
+    const [activeTab, setActiveTab] = useState('design');
   return (
 
     <>
 <section className='ourBlogs'>
 <div>
-    <Tittel
-                hiedText={true}
-                ShowButtonIcon={true}
-                TextHeading={"Our Blogs"}
-                TextSpan={"ALL Testimonials"}
-                backColor={"var(--secondary-color)"}
-                />
+               <BlogsTittle setActiveTab={setActiveTab} />
     </div>
-    <div className='mh-blogs'>
+    <Link to={'/BlogsOpenPage'} className='mh-blogs'>
         <div className='mh-blogphoto'>
 
         </div>
@@ -48,8 +44,8 @@ export default function OurBlogs() {
                 </div>
             </div>
         </div>
-    </div>
-    <OurBlogsCards/>
+    </Link>
+    <OurBlogsCards activeTab={activeTab}/>
 </section>
  
     

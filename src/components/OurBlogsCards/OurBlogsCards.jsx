@@ -3,7 +3,8 @@ import './OurBlogsCards.css'
 import arrow from '../../assets/images/arrow.svg'
 import blogsData from '../../Data/OurBlogsCard'
 import downArrow from '../../assets/images/down-arrow.png'
-export default function OurBlogsCards() {
+import { Link } from 'react-router-dom'
+export default function OurBlogsCards({ activeTab }) {
   const [isSmallScreen, setIsSmallScreen] = useState(false);
   const [showLastCard, setShowLastCard] = useState(false); 
   useEffect(() => {
@@ -14,10 +15,20 @@ export default function OurBlogsCards() {
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize); 
   }, []);
+  let orderedBlogs = [];
+  if (activeTab === 'design') {
+    orderedBlogs = blogsData;
+  }
+  else if (activeTab === 'business') {
+    orderedBlogs = [blogsData[1], blogsData[0], blogsData[2]]; 
+  }
+  else if (activeTab === 'development') {
+    orderedBlogs = [blogsData[2], blogsData[1], blogsData[0]];  
+  }
   return (
     <div className='mh-blogAllCards'>
-      {blogsData.map((blog, index) => (
-        <div
+      {orderedBlogs.map((blog, index) => (
+        <Link to={'/BlogsOpenPage'}
           key={index}
           className={`mh-blogcard ${isSmallScreen && index === blogsData.length - 1 && !showLastCard ? 'hidden' : ''}`}
         >
@@ -34,7 +45,7 @@ export default function OurBlogsCards() {
               <span>Read Full Blog</span>
             </div>
           </div>
-        </div>
+        </Link>
       ))}
       {isSmallScreen && !showLastCard && (
         <button className='mh-hiddenbtn' onClick={() => setShowLastCard(true)}>
