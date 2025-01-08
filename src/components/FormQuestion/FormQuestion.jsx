@@ -13,7 +13,7 @@ export default function FormQuestion() {
 <label >Email </label>
 <input type="text" required placeholder="Enter your email"></input>
 <label >Your Question </label>
-<textarea name="textbox" placeholder="Enter Your Question Here ....." rows="3" cols="20"></textarea>
+<textarea name="textbox" placeholder="Enter Your Question Here ....." rows="5" cols="20"></textarea>
 </form> 
 <button className='hm-Form-button'>Send Your Message</button>
 </div>
