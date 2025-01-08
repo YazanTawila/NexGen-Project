@@ -21,7 +21,6 @@ function OurWorks() {
                 ImgSrc={ImageSrc}
                 TextHeading={"OUR WORKS"}
                 TextSpan={"ALL WORKS"}
-                backColor={"var(--secondary-color)"}
             />
             <OurWorksBodyCard TechnologiesUsed={TechnologiesUsed.one} TeamMembers={TeamMembers.one} imgProgect={imgProgect1}  Text={'Zenith Fitness App'}  showdesc={false} 
             textdesc={'An all-in-one health and wellness app that offers personalized fitness plans, nutrition guidance, and virtual workout classes.'} 

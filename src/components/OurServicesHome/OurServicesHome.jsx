@@ -11,8 +11,6 @@ function OurServicesHome() {
                 ShowButtonIcon={true}
                 ImgSrc={ImageSrc}
                 TextHeading={"Our Services"}
-                
-                backColor={"var(--secondary-color)"}
             />
             <OurServicesHomeCards OurServicesCardsFather={'YT-OurServicesCards'}/>
         </div>

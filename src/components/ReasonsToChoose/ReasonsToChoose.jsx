@@ -12,7 +12,6 @@ function ReasonsToChoose() {
             ShowButtonIcon={true}
             ImgSrc={ImageSrc}
             TextHeading={"Reasons to Choose NexGen for Your Digital Journey"}
-            backColor={"var(--secondary-color)"}
             />
             <ReasonsToChooseCards  ReasonsToChooseCardData={ReasonsToChooseCardData}/>
     </div>
