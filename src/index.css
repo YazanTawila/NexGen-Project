@@ -19,18 +19,16 @@
     --absolute-white:#FFFFFF;
     --hover-color:#E7BEB1;  /*  and arrow color */
     --other-grey-color:#81807E;
-
-    
     --p-color:#262626;
     --orange2-color:#F3DFD8;
-
     --border-color:#1F1F1F;
     --buttonicon:#262626;
     --color-label:#F3DFD8 ;
     --color-shadow:#0062FF08;
 
+
     /* Fonts */
-    --roboto-font:'Roboto Flex',sans-serif;
+    --roboto-font:"Roboto Flex", serif;
     --roboto-mono-font:'Roboto Mono',monospace;
     
 }

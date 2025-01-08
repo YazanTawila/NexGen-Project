@@ -3,7 +3,7 @@ import StoriesIcon from '../StoriesIcon/StoriesIcon'
 import ButtonTextandIcon from '../ButtonTextandIcon/ButtonTextandIcon'
 //import GhostSmile from "../../assets/images/Ghost-Smile.svg"
 import ImgeSrc from '../../assets/images/arrow.svg'
-export default function StoriesTitel({Text ,Icon,TextSpan} ) {
+export default function StoriesTitel({Text ,Icon,TextSpan,bttonandiconstyle,ShowButtonIcon} ) {
   return (
     <>
     <div className='hm-StoreCard-titel'>
