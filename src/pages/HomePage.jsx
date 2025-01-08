@@ -16,7 +16,7 @@ export default function HomePage() {
         <NavBar /> 
         <ReasonsToChoose/>
         <OurServicesHome/>
-        {/* <OurWorks/> */}
+        <OurWorks/>
         <Testimonial/>
         <Question/>
         <Digital1/>

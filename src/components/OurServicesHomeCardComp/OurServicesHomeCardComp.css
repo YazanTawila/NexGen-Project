@@ -30,7 +30,7 @@
     background-color: var(--orange-color);
     margin-top: 20px;
     padding: 14px 20px;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     border-radius: 8px;
@@ -46,7 +46,6 @@
 }
 .YT-ButtonandText{
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 5px;
     text-decoration: none;
