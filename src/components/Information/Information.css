@@ -70,14 +70,15 @@ input:focus{
     margin-left: 10px;
 }
 .RH-item3-left input{
-    background-color: var(--checkbox-color);
+   border: 1px solid var( --color-checkbox);
     width: 28px;
     height: 28px;
-    border: 10px solid red;
     border-radius: 7px;
+    background-color: var(--buttonicon);
 }
 .RH-item3-left div{
     color: var(--text-color);
+
 }
 .RH-item3 {
     display: flex;
@@ -102,7 +103,5 @@ input:focus{
     margin-left: 10px;
     /* width: 28px;
     height: 28px; */
-    color: red;
-    background-color: red;
 }
 

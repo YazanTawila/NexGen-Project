@@ -4,7 +4,7 @@ import './Information.css'
 import React from 'react';
 import RH_img from '../../assets/images/flag.png'
 import RH_arrow2 from '../../assets/images/down-arrow.svg'
-import RH_arrow3 from '../../assets/images/arrow.svg'
+import RH_arrow3 from '../../assets/images/arrowblack.svg'
 
 function Information() {
     return (

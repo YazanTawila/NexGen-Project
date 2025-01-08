@@ -8,6 +8,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px;
 }
 .hm-heading {
   font-family: var(--roboto-font);
@@ -54,7 +55,7 @@ padding: 20px;
   padding: 10px;
   gap: 10px;
   border-radius: 100px;
-  background-color: var(--color-white);
+  background-color: var(   --absolute-white);
 }
 .Hm-Servies-text {
   font-family: var(--roboto-mono-font);
@@ -62,7 +63,7 @@ padding: 20px;
   font-weight: 400;
   line-height: 27px;
   text-align: center;
-  color: var(--color-white);
+  color: var(   --absolute-white);
 }
 @media (max-width: 1440px) {
   .hm-Container-img {
@@ -95,7 +96,7 @@ padding: 20px;
     line-height: 30px;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 750px) {
   .hm-Container-img{
     display: none;
   }
