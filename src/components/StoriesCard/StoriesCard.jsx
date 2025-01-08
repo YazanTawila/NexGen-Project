@@ -15,6 +15,8 @@ export default function StoriesCard({TextSpan,showdiv,textdesc,showdesc,stylesto
       secondtext1={secondtext1}
       childtext2={childtext2}
       secondtext2={secondtext2}
+      StyleStoriesTextDiv={'hm-StoriesDiv'}
+      StyleStoriesText={'hm-childtext'}
       /> }
       {!showdesc&& <p>{textdesc}</p>}
     </div>

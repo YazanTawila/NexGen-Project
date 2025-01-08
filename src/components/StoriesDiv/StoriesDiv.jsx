@@ -1,20 +1,20 @@
 import './StoriesDiv.css'
 import shap from '../../assets/images/Shape.svg'
-export default function StoriesDiv({childtext1,secondtext1,childtext2,secondtext2,styleStoriesDiv}) {
+export default function StoriesDiv({childtext1,secondtext1,childtext2,secondtext2,styleStoriesDiv,StyleStoriesTextDiv,StyleStoriesText}) {
   return (
     <>
     <div  className={styleStoriesDiv}>
-    <div className='hm-StoriesDiv' >
+    <div className={StyleStoriesTextDiv} >
       <p>{childtext1}</p>
       <img src={shap}></img>
-      <span className='hm-childtext'>{secondtext1}</span>
-     
+      <span className={StyleStoriesText}>{secondtext1}</span>
+      
     </div>
-    <div className='hm-StoriesDiv' >
+    <div className={StyleStoriesTextDiv} >
       <p>{childtext2}</p>
       <img src={shap}></img>
-      <span className='hm-childtext'>{secondtext2}</span>
-     
+      <span className={StyleStoriesText}>{secondtext2}</span>
+      
     </div>
     </div>
     </>

@@ -35,7 +35,6 @@ function OurServicesHomeCardComp({TextSpan,Text,Icon,desc,price,OurServicesclass
                     ImgSrc={ImgeSrc}
                     TextSpan={'Book A Call'} 
                     ButtonText={'YT-ButtonText'}
-
                 />
         </Link>
     )
