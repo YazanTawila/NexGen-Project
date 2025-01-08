@@ -19,8 +19,6 @@ export default function ServicesPage() {
         <Digital1/>
         <InfiniteScroll items={scroll.follow} color={'var(--secondary-color)'}/>
         <Footer/>
-        <OurSeviecs/>
-        <SuccessStoriesCompon/>
         
     </div>
   )

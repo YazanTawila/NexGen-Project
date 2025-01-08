@@ -14,7 +14,6 @@ function Testimonial() {
             ImgSrc={ImageSrc}
             TextHeading={"TESTIMONIALS"}
             TextSpan={"ALL TESTIMONIALS"}
-            backColor={"var(--secondary-color)"}
             />
             <Cards TestimonialCardData={TestimonialCardData}/>
         </div>
