@@ -32,7 +32,7 @@ a .MH-lbutton.active{
 
 .MH-NAVBAR{
     width: 94.44%;
-    height: 89px;
+    height: 111px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,17 +42,16 @@ a .MH-lbutton.active{
     z-index: 999;
     left: 50%;
     transform: translateX(-50%);
-    
+    padding: 0 20px 0 40px;
+    margin-top: 30px;
 }
 .MH-NAVBAR img{
-    height: 18px;
-    padding-left: 50px;
+    height: 24px;
 }
 .MH-NAVBAR ul{
     display: flex;
     gap: 14px;
-    padding: 20px 20px 20px;
-    
+    padding: 20px 0;
 }
 .MH-button{
     list-style: none;
@@ -92,22 +91,42 @@ a .MH-lbutton.active{
 .togle{
     display: none;
 }
+@media (max-width:1600px) {
+    .MH-NAVBAR{
+        height: 89px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 40px;
+        margin-top: 0px;
+        top: 30px;
+    }
+    .MH-NAVBAR img{
+        height: 18px;
+    }
+}
 @media (max-width : 996px) {
+    .MH-NAVBAR img{
+        height: 16px;
+    }
     .MH-NAVBAR ul{
         display :none;
     } 
-    .togle{
+    .MH-NAVBAR{
+        width: 91.79%;
         display: flex;
-        height: 44px;
-        align-items: center;
-        justify-content: center;
+        justify-content: space-between;
+        padding: 0 14px;
+    }
+    .togle{
+        display: block;
         background-color:var(--primary-color);
-        padding: 20px 40px 15px 0px;
+        padding: 10px;
         border: none;
         cursor: pointer;
     }
-    .togle img{
-        width: 100%;
+    .toggle-img{
+        width: 24px;
+        height: 24px;
     }
     .MH-navTogle.open  {
         width: 50%;

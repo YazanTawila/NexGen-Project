@@ -2,7 +2,7 @@ import ButtonTextandIcon from '../ButtonTextandIcon/ButtonTextandIcon'
 import './Tittel.css'
 
 
-export default function Tittel({hiedText,ShowButtonIcon, ImgSrc,TextSpan, backColor,TextHeading}){  
+export default function Tittel({hiedText,ShowButtonIcon, ImgSrc,TextSpan,TextHeading}){  
   return (
     <div className="HM-Question-heading ">
     <h2>{TextHeading} </h2>
