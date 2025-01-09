@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 
-  background-color: var(--primary-color);
+
 
 :root{
     /* Colors */
@@ -36,4 +36,7 @@
     --roboto-mono-font:'Roboto Mono',monospace;
     
 
+}
+body{
+  background-color: var(--primary-color);
 }
