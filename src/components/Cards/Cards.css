@@ -27,4 +27,7 @@
     .YT-Testimonial-Cards :nth-child(4){
         display: none;
     }
+    .YT-Testimonial-Cards{
+        margin-top: 10px;
+    }
 }

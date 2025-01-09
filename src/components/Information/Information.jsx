@@ -8,25 +8,23 @@ import RH_arrow3 from '../../assets/images/arrow.svg'
 
 function Information() {
     return (
-        <section className='FatherInformation'>
-            <div className='RH'>
+        <section className='FatherInformation'> 
 
-            </div>
             <form className='RH-form'>
                 <div className='RH-item1'>
                     <div className='RH-subItems'>
                         <h5>FIRST NAME</h5>
-                        <input placeholder='Enter First Name' className='RH-input'></input>
+                        <input placeholder='Enter First Name' ></input>
                     </div>
                     <div className='RH-subItems'>
                         <h5>LAST NAME</h5>
-                        <input placeholder='Enter Last Name' className='RH-input'></input>
+                        <input placeholder='Enter Last Name' ></input>
                     </div>
                 </div>
                 <div className='RH-item1'>
                     <div className='RH-subItems'>
                         <h5>EMAIL</h5>
-                        <input placeholder='Enter your Email' className='RH-input'></input>
+                        <input placeholder='Enter your Email'></input>
                     </div>
                     <div className='RH-subItems'>
                         <h5>PHONE NUMBER</h5>
@@ -35,7 +33,7 @@ function Information() {
                                 <img src={RH_img} className='RH-img' />
                                 <img src={RH_arrow2} />
                             </div>
-                            <input placeholder='Enter Phone Number' className='RH-input'></input>
+                            <input placeholder='Enter Phone Number'></input>
                         </div>
                     </div>
                 </div>

@@ -99,16 +99,8 @@ margin: 10px 0px;
        
     }
 }
-    @media (max-width:750px) {
-        .HM-FormQuestion{
-            padding: 30px ;
-           
-        }
    
-    .hm-Form-button{
-        font-size: 20px;
-    }
-}
+
 @media (max-width:395px) {
     .hm-Form-Container{
         margin:10px 0px ;

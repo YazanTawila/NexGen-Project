@@ -12,7 +12,9 @@ export default function Tittel({hiedText,ShowButtonIcon, ImgSrc,TextSpan, backCo
         ShowButtonIcon={ShowButtonIcon}
         ImgSrc={ImgSrc}
         TextSpan={TextSpan}
-        backColor={backColor}
+        bttonandiconstyle={'Hm-ButtonTextandIcon'}
+        ButtonText={'Hm-ButtonText'}
+        iconStyle={'HM-button-icon'}
       />
     </div>
   </div>

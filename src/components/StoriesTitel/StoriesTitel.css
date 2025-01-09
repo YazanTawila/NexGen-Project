@@ -1,0 +1,19 @@
+.hm-StoreCard-titel-buuton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+}
+.hm-StoreCard-titel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width:770px) {
+    .hm-StoreCard-titel{
+   flex-wrap: wrap;
+   gap: 20px;
+    } 
+}
