@@ -1,3 +1,16 @@
+
+
+import KeyFeaturesProject from "../components/KeyFeaturesProject/KeyFeaturesProject";
+import ProjectTitleComponent from "../components/ProjectTitleComponent/ProjectTitleComponent";
+
+export default function ProjectsPage() {
+  return (
+    <div>
+
+      <ProjectTitleComponent />
+      <KeyFeaturesProject />
+
+
 import React from 'react'
 import NavBar from '../components/NavBar/NavBar'
 import Testimonial from '../components/Testimonial/Testimonial'
@@ -15,6 +28,7 @@ export default function ProjectsPage() {
         <Digital1/>
         <InfiniteScroll items={scroll.follow} color={'var(--secondary-color)'}/>
         <Footer/>
+
     </div>
-  )
+  );
 }

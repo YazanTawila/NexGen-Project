@@ -1,11 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@0;1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@0;1&display=swap");
 
-*{
-    margin: 0;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
 }
+
+  background-color: var(--primary-color);
+
 :root{
     /* Colors */
     --primary-color:#0F0F0F;
@@ -32,7 +35,5 @@
     --roboto-font:"Roboto Flex", serif;
     --roboto-mono-font:'Roboto Mono',monospace;
     
-}
-body{
-    background-color: var(--primary-color);
+
 }
