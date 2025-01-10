@@ -10,8 +10,10 @@ export default function ProjectsPage() {
   return (
     <div>
       <NavBar />
-      <ProjectTitleComponent />
-      <KeyFeaturesProject />
+      <div className="MA-SectionContainer">
+        <ProjectTitleComponent />
+        <KeyFeaturesProject />
+      </div>
       <Testimonial />
       <InfiniteScroll items={scroll.follow} color={"var(--secondary-color)"} />
     </div>

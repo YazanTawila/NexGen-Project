@@ -1,10 +1,17 @@
 import React from "react";
-import "../ProjectTitleComponent/ProjectTitleComponent.css";
+import Tittel from "../Tittel/Tittel";
 
 const ProjectTitleComponent = () => {
   return (
-    <div className="MA-titleContainer">
-      <h3>KEY FEATURES OF OUR PROJECTS</h3>
+    <div className="MA-TitleContainer">
+      <Tittel
+        hiedText={false}
+        ShowButtonIcon={true}
+        ImgSrc={""}
+        TextHeading={"KEY FEATURES OF OUR PROJECTS"}
+        TextSpan={""}
+        viewButton={false}
+      />
     </div>
   );
 };
