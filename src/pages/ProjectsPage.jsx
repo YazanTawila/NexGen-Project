@@ -11,6 +11,7 @@ import ProjectTitleComponent from "../components/ProjectTitleComponent/ProjectTi
 export default function ProjectsPage() {
   return (
     <div>
+
         {/* <NavBar/> */}
         <ProjectTitleComponent />
         <KeyFeaturesProject />
@@ -19,7 +20,6 @@ export default function ProjectsPage() {
         <Digital1/>
         <InfiniteScroll items={scroll.follow} color={'var(--secondary-color)'}/>
         <Footer/>
-
     </div>
   );
 }
