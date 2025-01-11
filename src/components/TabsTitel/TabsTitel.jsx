@@ -13,8 +13,8 @@ const handleButtonOnclick=(index)=>{
 
   return (
     <>
-    <div>
-    <div className='hm-tabsbutton'>
+    <div  className='hm-Container'>
+    <div  className='hm-tabsbutton'>
       {TabsButtonTittel?.map((button,index) =>(
        <ButtonTabs
        buttonStyle={'hm-tabbutton'} key={button.id}
@@ -23,6 +23,8 @@ const handleButtonOnclick=(index)=>{
         handleButtonOnclick(index)
        }
        backtabsColor={activetIndex===index?'var(--orange-color)' :'var( --border-color)'}
+       colorFont={activetIndex===index? 'var(  --primary-color)':'var(--text-color)'
+       }
        /> 
       )
     )}

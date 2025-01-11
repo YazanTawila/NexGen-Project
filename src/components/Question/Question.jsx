@@ -3,7 +3,6 @@ import './Question.css'
 import ImageSrc from "../../assets/images/arrow.svg";
 import FormQuestion from '../FormQuestion/FormQuestion';
 import AccrodionQuestion from '../AccrodionQuestion/AccrodionQuestion';
-// import OurServeceCard from '../OurServeceCard/OurServeceCard';
 
 export default function Question() {
   return (
@@ -21,9 +20,7 @@ export default function Question() {
           <div className="HM-Margin hm-question-content">
             <AccrodionQuestion/>
           <FormQuestion />
-
         </div>
-        {/* <OurServeceCard/> */}
       </div>
     
     </>

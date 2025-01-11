@@ -1,20 +1,13 @@
 import ButtonTextandIcon from "../ButtonTextandIcon/ButtonTextandIcon";
 import "./Tittel.css";
 
-export default function Tittel({
-  hiedText,
-  ShowButtonIcon,
-  ImgSrc,
-  TextSpan,
-  backColor,
-  TextHeading,
-  viewButton,
-}) {
+export default function Tittel({hiedText,ShowButtonIcon, ImgSrc,TextSpan,TextHeading}){  
+
   return (
     <div className="HM-Question-heading ">
       <h2>{TextHeading} </h2>
       <div className="hm-buttom-QuestionTitetel">
-        {viewButton && (
+        
           <ButtonTextandIcon
             hiedText={hiedText}
             ShowButtonIcon={ShowButtonIcon}
@@ -24,7 +17,6 @@ export default function Tittel({
             ButtonText={"Hm-ButtonText"}
             iconStyle={"HM-button-icon"}
           />
-        )}
       </div>
     </div>
   );
