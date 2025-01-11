@@ -7,6 +7,7 @@ export default function ProjectsPage() {
   return (
     <div>
         <NavBar/>
+        
         <Testimonial/>
         <InfiniteScroll items={scroll.follow} color={'var(--secondary-color)'}/>
     </div>
