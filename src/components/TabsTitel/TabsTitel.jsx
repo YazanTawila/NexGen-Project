@@ -23,6 +23,8 @@ const handleButtonOnclick=(index)=>{
         handleButtonOnclick(index)
        }
        backtabsColor={activetIndex===index?'var(--orange-color)' :'var( --border-color)'}
+       colorFont={activetIndex===index? 'var(  --primary-color)':'var(--text-color)'
+       }
        /> 
       )
     )}

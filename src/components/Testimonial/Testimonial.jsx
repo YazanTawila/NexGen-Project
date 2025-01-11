@@ -12,9 +12,8 @@ function Testimonial() {
             hiedText={false}
             ShowButtonIcon={false}
             ImgSrc={ImageSrc}
-            TextHeading={"Testimonials"}
-            TextSpan={"ALL Testimonials"}
-            backColor={"var(--secondary-color)"}
+            TextHeading={"TESTIMONIALS"}
+            TextSpan={"ALL TESTIMONIALS"}
             />
             <Cards TestimonialCardData={TestimonialCardData}/>
         </div>

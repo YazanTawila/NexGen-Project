@@ -7,7 +7,7 @@ export default function SuccessStories({Text,Icon,childtext1,secondtext1,childte
     <>
         
               <div className="HM-Margin hm-Stories-content">
-              <StoriesCard stylestoirscard ={'hm-StoriesCard'}
+              <StoriesCard stylestoirscard={'hm-StoriesCard'}
               ShowDesc={true} Text={Text}
               Icon={Icon}    childtext1={childtext1}
               secondtext1={secondtext1}
