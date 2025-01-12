@@ -9,18 +9,20 @@ import ReasonsToChoose from '../components/ReasonsToChoose/ReasonsToChoose'
 import OurServicesHome from '../components/OurServicesHome/OurServicesHome'
 import Digital1 from '../components/Digital1/Digital1'
 import OurWorks from '../components/OurWorks/OurWorks'
+import Hero from '../components/Hero/Hero'
 
 export default function HomePage() {
   return (
     <div>
-        <NavBar /> 
+        {/* <NavBar/>  */}
+        <Hero  show={false}/>
         <ReasonsToChoose/>
         <OurServicesHome/>
         <OurWorks/>
         <Testimonial/>
         <Question/>
         <Digital1/>
-        <InfiniteScroll items={scroll.follow} color={'var(--secondary-color)'}/>
+        <InfiniteScroll items={scroll.follow}   InfinityStyle={'YT-slider'}/>
         <Footer/>
     </div>
   )

@@ -1,0 +1,51 @@
+.YT-HeroLeftComponent{
+    width: 66.31%;
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+}
+.YT-HeroLeftComponentttt{
+    padding: 100px 80px ;
+}
+.ll{
+    display: flex;
+
+}
+.YT-HeroLeftComponentTitle {
+width: 65%;
+}
+.YT-HeroLeftComponentTitle h1{
+    font-size: 78px;
+    font-weight: 600;
+    line-height: 117px;
+    color: var(--titles-color);
+    font-family: var(--roboto-font);
+}
+.imm{
+    padding-top:20px;
+}
+.YT-HeroLeftComponentttt p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: var(--other-text-color);
+    font-family: var(--roboto-font);
+    width: 80%;
+}
+.YT-HeroSlider{
+    margin: 0px 20px 20px 20px;
+    padding: 20px 0;
+    border-radius: 12px;
+    background-color: var(--primary-color);
+}
+.YT-HeroSlider span{
+    font-size:20px ;
+    font-family:var(--roboto-mono-font) ;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--other-text-color);
+    margin: 0;
+    text-transform: uppercase;
+}
+.YT-HeroSlider span img{
+    margin: 0 20px;
+}

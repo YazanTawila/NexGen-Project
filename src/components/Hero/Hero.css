@@ -1,0 +1,17 @@
+.Hero{
+    margin: 120px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+@media(max-width:1440px){
+    .Hero{
+        margin: 80px 40px;
+
+    }
+}
+@media(max-width:390px){
+    .Hero{
+        margin: 50px 16px;
+
+    }
+}

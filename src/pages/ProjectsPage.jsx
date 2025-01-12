@@ -11,13 +11,13 @@ import ProjectTitleComponent from "../components/ProjectTitleComponent/ProjectTi
 export default function ProjectsPage() {
   return (
     <div>
-        {/* <NavBar/> */}
+        <NavBar/>
         <ProjectTitleComponent />
         <KeyFeaturesProject />
         <Testimonial/>
         <Question/>
         <Digital1/>
-        <InfiniteScroll items={scroll.follow} color={'var(--secondary-color)'}/>
+        <InfiniteScroll items={scroll.follow}  InfinityStyle={'YT-slider'}/>
         <Footer/>
 
     </div>
