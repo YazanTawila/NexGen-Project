@@ -7,11 +7,13 @@ import Question from '../components/Question/Question'
 import Digital1 from '../components/Digital1/Digital1'
 import Footer from '../components/Footer/Footer'
 import KeyFeatures from '../components/KeyFeatures/KeyFeatures'
+
 export default function ProjectsPage() {
   return (
     <div>
         <NavBar/>
         <KeyFeatures/>
+        
         <Testimonial/>
         <Question/>
         <Digital1/>
