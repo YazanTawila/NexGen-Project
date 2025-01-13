@@ -1,0 +1,203 @@
+.MA-Careers-Card {
+  width: 49%;
+  border-radius: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--secondary-color);
+  padding: 16px;
+}
+
+.MA-Card-First-Section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.MA-Card-First-Section div {
+  display: flex;
+  align-items: center;
+}
+.MA-Card-First-Section span {
+  width: 40px;
+  height: 40px;
+  padding: 11px;
+  border-color: var(--border-color);
+  border: 1px solid;
+  margin: 8px;
+}
+.MA-Card-First-Section span img {
+  max-width: 100%;
+}
+.MA-arrow-Style {
+  border-radius: 50%;
+}
+.MA-First-Title-Style {
+  border-radius: 12px;
+}
+.MA-Title-Style {
+  font-family: var(--roboto-font);
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--titles-color);
+}
+
+.MA-Title-Styling {
+  color: var(--other-grey-color);
+}
+.MA-Card-First-Section button {
+  font-family: var(--roboto-mono-font);
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  background: none;
+  color: var(--other-grey-color);
+  text-wrap: nowrap;
+  cursor: pointer;
+  border: 0;
+}
+.MA-Card-Second-Section {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+.MA-Content-Styling {
+  display: flex;
+  border-radius: 45px;
+  background-color: var(--border-color);
+}
+.MA-Content-Styling-Container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  column-gap: 5px;
+}
+.MA-Card-Second-Section span {
+  text-wrap: nowrap;
+  padding: 15px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+}
+.MA-Card-Second-Section span p {
+  font-family: var(--roboto-font);
+  font-size: 13px;
+  font-weight: 500;
+  margin-inline: 2px;
+}
+.MA-Par-Style {
+  color: var(--grey-color);
+}
+
+.MA-Card-Third-Section p {
+  font-family: var(--roboto-font);
+  text-wrap: wrap;
+}
+.MA-Card-Third-Section-First-Paragraph {
+  color: var(--titles-color);
+  font-size: 18px;
+}
+.MA-Card-Third-Section-Second-Paragraph {
+  color: var(--other-grey-color);
+  font-size: 15px;
+}
+.MA-Card-Fourth-Section {
+  width: 100%;
+}
+.MA-Card-Fourth-Section button {
+  border-radius: 5px;
+  background-color: var(--orange-color);
+  cursor: pointer;
+  border: 0;
+  width: 100%;
+  height: 36px;
+  margin-top: 16px;
+}
+.MA-Careers-SectionContainer {
+  padding: 20px;
+  border: solid 2px var(--border-color);
+  border-radius: 24px 0px 0px 0px;
+  margin: 80px 40px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.MA-Card-Box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+@media (max-width: 1440px) {
+  .MA-Careers-SectionContainer {
+    border: solid 2px var(--border-color);
+    margin: 80px 40px;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  .MA-Careers-Card {
+    padding: 40px;
+    border-radius: 12px;
+  }
+  .MA-Card-First-Section {
+    width: 585px;
+    height: 60px;
+  }
+  .MA-Title-Style {
+    font-size: 24px;
+  }
+
+  .MA-Content-Styling,
+  .MA-Card-Third-Section-Second-Paragraph,
+  .MA-Card-First-Section button {
+    font-size: 16px;
+  }
+  .MA-Card-Third-Section-First-Paragraph {
+    font-size: 20px;
+  }
+  .MA-Card-Fourth-Section button {
+    border-radius: 8px;
+  }
+}
+
+@media (max-width: 420px) {
+  .MA-Careers-SectionContainer {
+    padding: 10px;
+    border-radius: 14px;
+    border: solid 2px var(--border-color);
+  }
+  .MA-Careers-Card {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    border-radius: 12px;
+    width: 630px;
+  }
+  .MA-Title-Style {
+    font-size: 20px;
+  }
+  .MA-Content-Styling {
+    font-size: 14px;
+  }
+  .MA-Content-Styling-Container {
+    display: flex;
+    flex-direction: column;
+  }
+  .MA-Title-Style p {
+    font-size: 19px;
+  }
+  .MA-Card-First-Section div {
+    transform: translate(-347px, 159px);
+  }
+  .MA-Card-Third-Section-Second-Paragraph {
+    font-size: 12px;
+  }
+
+  .MA-Card-Fourth-Section button {
+    border-radius: 8px;
+    width: 290px;
+    height: 49px;
+    padding: 14px 20px 14px 20px;
+    margin-left: 156px;
+  }
+}

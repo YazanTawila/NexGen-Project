@@ -1,21 +1,19 @@
-import React from 'react'
-import NavBar from '../components/NavBar/NavBar'
-import Testimonial from '../components/Testimonial/Testimonial'
-import InfiniteScroll from '../components/InfiniteScroll/InfiniteScroll'
-import scroll from '../Data/data'
-import Question from '../components/Question/Question'
-import Digital1 from '../components/Digital1/Digital1'
-import Footer from '../components/Footer/Footer'
-
+import React from "react";
+import NavBar from "../components/NavBar/NavBar";
+import Testimonial from "../components/Testimonial/Testimonial";
+import InfiniteScroll from "../components/InfiniteScroll/InfiniteScroll";
+import scroll from "../Data/data";
+import JoinTeam from "../components/JoinTeam/JoinTeam";
+import CareersCard from "../components/CareersCard/CareersCard";
 export default function CareersPage() {
   return (
     <div>
-        <NavBar/>
-        <Testimonial/>
-        <Question/>
-        <Digital1/>
-        <InfiniteScroll items={scroll.follow} color={'var(--secondary-color)'}/>
-        <Footer/>
+      <NavBar />
+      <JoinTeam />
+      <CareersCard />
+
+      <Testimonial />
+      <InfiniteScroll items={scroll.follow} color={"var(--secondary-color)"} />
     </div>
-  )
+  );
 }
