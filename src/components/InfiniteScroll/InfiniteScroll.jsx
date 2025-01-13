@@ -4,9 +4,9 @@ import './InfiniteScroll.css'
 import Marquee from 'react-fast-marquee'
 import circle from './../../assets/images/Shape.svg'
 
-function InfiniteScroll({ items ,color,css}) {
+function InfiniteScroll({ items ,color,css,InfinityStyle}) {
     return (
-        <div  className='YT-slider' style={{backgroundColor:color}}>
+        <div  className={InfinityStyle} style={{backgroundColor:color}}>
             <Marquee autoFill pauseOnHover >
                 <div>
                     {items.map((item,index) => (
