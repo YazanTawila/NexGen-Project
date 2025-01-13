@@ -200,4 +200,17 @@
     padding: 14px 20px 14px 20px;
     margin-left: 156px;
   }
+  .MA-Par-Style {
+    font-size: 14px;
+  }
+  .MA-Card-Box {
+    width: 358px;
+    height: 1538px;
+    padding: 20px;
+    border: solid 2px var(--border-color);
+    border-radius: 24px 0px 0px 0px;
+    margin: 80px 40px;
+    padding: 10px;
+    border-radius: 20px;
+  }
 }
