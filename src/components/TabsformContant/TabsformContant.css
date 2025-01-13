@@ -8,7 +8,7 @@
 .hm-contanier-contactus-button {
   display: flex;
   gap: 12px;
-padding: 50px 50px 80px 50px;
+ /* margin-top: 50px;*/
 }
 .hm-tabbutton-form {
   border-radius: 12px;
@@ -21,19 +21,20 @@ padding: 50px 50px 80px 50px;
   text-align: center;
   width: 220px;
   border: 1px solid var(--buttonicon);
+  
 }
 .hm-contatus-form{
   display: flex;
   flex-direction: column;
   gap: 30px;
-  padding: 0px 50px 50px 50px;
+  margin-top: 80px;
 }
 .hm-form-input {
   width: 100%;
   height: 88px;
   border-radius: 14px 100px 100px 14px;
   padding: 10px 24px 10px 14px;
-  background-color: var(--border-colorr);
+  background-color: var(  --border-color);
   font-family: var(--roboto-mono-font);
   font-size: 18px;
   font-weight: 500;
@@ -78,7 +79,7 @@ padding: 50px 50px 80px 50px;
   .hm-contanier-contactus-button {
     display: flex;
     gap: 8px;
-    padding: 40px 40px 60px 40px;
+     /* margin-top: 40px;*/
   }
   .hm-tabbutton-form {
     border-radius: 8px;
@@ -90,7 +91,7 @@ padding: 50px 50px 80px 50px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 0px 40px 40px 40px;
+     margin-top: 60px;
   }
   .hm-form-input {
     height: 72px;
@@ -111,21 +112,21 @@ padding: 50px 50px 80px 50px;
     padding: 16px;
   }
 }
-@media (max-width: 750px) {
+@media (max-width: 950px) {
   .hm-contanier-contactus {
-    width: 358px;
+    width: 90%;
     border-radius: 10px;
-    padding: 30px;
     height: max-content;
+    padding: 30px;
   }
   .hm-contanier-contactus-button {
-    padding: 30px 30px 50px 30px;
+   /* margin-top: 30px;*/
   }
   .hm-contatus-form{
     display: flex;
     flex-direction: column;
     gap: 16px;
-    padding: 0px 30px 30px 30px;
+ margin-top: 50px;
     
   }
   .hm-tabbutton-form:nth-child(1){
@@ -136,6 +137,7 @@ padding: 50px 50px 80px 50px;
     padding: 14px 20px;
     font-size: 14px;
     line-height: 21px;
+   
   }
   .hm-form-input {
     height: 64px;
@@ -152,5 +154,10 @@ padding: 50px 50px 80px 50px;
   }
   .Hm-form-icon {
     padding: 14px;
+  }
+}
+@media (max-width:390px) {
+  .hm-contanier-contactus {
+ width: 358px;
   }
 }

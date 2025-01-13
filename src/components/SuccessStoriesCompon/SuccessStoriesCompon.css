@@ -4,6 +4,9 @@
     .Hm-Succes{
         display: none;
     }
+    .hm-bottom-text{
+        display: none;
+    }
     @media (max-width:1440px) {
         .Hm-contanier-Stories{
             margin: 80px 40px;
@@ -14,7 +17,7 @@
                 margin: 50px 16px;
                 }
             }
-            @media (max-width:390px) {
+            @media (max-width:790px) {
                 .Hm-Succes {
                     display:flex ;
                     flex-direction: column;
