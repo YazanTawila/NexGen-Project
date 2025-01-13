@@ -9,18 +9,21 @@ import ReasonsToChoose from '../components/ReasonsToChoose/ReasonsToChoose'
 import OurServicesHome from '../components/OurServicesHome/OurServicesHome'
 import Digital1 from '../components/Digital1/Digital1'
 import OurWorks from '../components/OurWorks/OurWorks'
+import Hero from '../components/Hero/Hero'
 
 export default function HomePage() {
   return (
     <div>
-        <NavBar /> 
+        <NavBar/> 
+        <Hero HeroClass={'Hero'} show={true} HomeRight={true} HeroTitle={'Digital Solutions That Drive Success'} showDesc={true} showSlider={true} HeroLeft={'YT-HeroLeftComponent'}
+          HeroDesc={'At NexGen, we believe in the transformative power of digital solutions. Our team of experts is dedicated to helping businesses like yours thrive in the fast-paced digital landscape.'}/>
         <ReasonsToChoose/>
         <OurServicesHome/>
         <OurWorks/>
         <Testimonial/>
         <Question/>
         <Digital1/>
-        <InfiniteScroll items={scroll.follow} color={'var(--secondary-color)'}/>
+        <InfiniteScroll items={scroll.follow}   InfinityStyle={'YT-slider'}/>
         <Footer/>
     </div>
   )

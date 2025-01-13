@@ -18,7 +18,7 @@ export default function BlogsPage() {
         <Testimonial/>
         <Question/>
         <Digital1/>
-        <InfiniteScroll items={scroll.follow} color={'var(--secondary-color)'}/>
+        <InfiniteScroll items={scroll.follow} InfinityStyle={'YT-slider'}/>
         <Footer/>
     </div>
   )

@@ -19,7 +19,7 @@ export default function OurSeviecs() {
      < OurServicesServiesesCards OurServicesCardsFathers={'hm-OurServicesCards'}/>
             <ServiesImgComponent/>
         </div>
-       
+        
       </div>
     </>
   )
