@@ -99,10 +99,10 @@ export default function Footer() {
             </div>
           </div>
           <div className='mh-rights'>
-            <p>@ 2024 NwxGen. All rights reserved</p>
+            <p>@2024 NwxGen.All rights reserved</p>
             <div className='mh-terms'>
             <p>Terms & Conditions</p>
-              <p className='mh-privacy'>Privacy Policy</p>
+              <p className='mh-privacy'> Privacy Policy</p>
               </div>
           </div>
     </div>

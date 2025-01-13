@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react'
 import './OurBlogsCards.css'
 import arrow from '../../assets/images/arrow.svg'
-import blogsData from '../../Data/OurBlogsCard'
+import designData from '../../Data/OurBlogsCard'
+import developmentData from '../../Data/developmentdata'
 import downArrow from '../../assets/images/down-arrow.png'
 import { Link } from 'react-router-dom'
+import businessData from '../../Data/businessdata'
 export default function OurBlogsCards({ activeTab }) {
   const [isSmallScreen, setIsSmallScreen] = useState(false);
   const [showLastCard, setShowLastCard] = useState(false); 
@@ -17,20 +19,20 @@ export default function OurBlogsCards({ activeTab }) {
   }, []);
   let orderedBlogs = [];
   if (activeTab === 'design') {
-    orderedBlogs = blogsData;
-  }
-  else if (activeTab === 'business') {
-    orderedBlogs = [blogsData[1], blogsData[0], blogsData[2]]; 
+    orderedBlogs = designData;
   }
   else if (activeTab === 'development') {
-    orderedBlogs = [blogsData[2], blogsData[1], blogsData[0]];  
+    orderedBlogs = developmentData;  
+  }
+  else if (activeTab === 'business'){
+    orderedBlogs = businessData;
   }
   return (
     <div className='mh-blogAllCards'>
       {orderedBlogs.map((blog, index) => (
         <Link to={'/BlogsOpenPage'}
           key={index}
-          className={`mh-blogcard ${isSmallScreen && index === blogsData.length - 1 && !showLastCard ? 'hidden' : ''}`}
+          className={`mh-blogcard ${isSmallScreen && index === orderedBlogs.length - 1 && !showLastCard ? 'hidden' : ''}`}
         >
           <div>
             <img src={blog.img} className='mh-blogphot' alt="" />

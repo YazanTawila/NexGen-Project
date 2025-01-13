@@ -9,9 +9,9 @@ import Footer from '../components/Footer/Footer'
 import Question from '../components/Question/Question'
 import OurSeviecs from '../components/OurSeviecs/OurSeviecs'
 export default function ServicesPage() {
-  return (
-    <div>
-        <NavBar /> 
+return (
+  <div>  
+        <NavBar />
         <OurSeviecs/>
         <SuccessStoriesCompon/>
         <Testimonial/>
