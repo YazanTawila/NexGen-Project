@@ -118,6 +118,7 @@
         border-radius: 12px;
         flex-direction: column;
         align-items: center;
+        margin: 0px 16px;
     }
 
     .RH_Child1 {

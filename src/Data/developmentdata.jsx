@@ -1,25 +1,26 @@
-import blogcard1 from '../assets/images/blogs-2.png'
-import blogcard2 from '../assets/images/blogs-3.png'
-import blogcard3 from '../assets/images/blogs-4.png'
+import development1 from '../assets/images/development-3.png'
+import development2 from '../assets/images/development-3.png'
+import development3 from '../assets/images/development-3.png'
 
-const designData =[
+
+const developmentData =[
     {
-        img:blogcard1,
-        heading:'OPTIMIZING MOBILE USER EXPERIENCE FOR HIGHER CONVERSIONS',
+        img:development1,
+        heading:'CONTINUOS DEVELOPMENT NEEDED',
         paragraph:'Mobile devices dominate digital interactions, making mobile user experience crucial for conversion rates. Explore mobile design best practices...',
         category: 'business',
     },
     {
-        img:blogcard2,
-        heading:'MASTERING THE ART OF MINIMALISTIC DESIGN',
+        img:development2,
+        heading:'WORKERS ARE AWESOME IN THIER JOB',
         paragraph:'Simplicity and elegance take center stage in minimalistic design. Learn the principles of minimalism, how to effectively communicate with fewer elements...',
         category: 'design',
     },
     {
-        img:blogcard3,
-        heading:'THE PSYCHOLOGY OF VISUAL DESIGN IN BRANDING',
+        img:development3,
+        heading:'THE PSYCHOLOGY OF DEVELOPMENT',
         paragraph:'Uncover the impact of visual elements in branding and how they influence customer perceptions and emotions. Explore color psychology, typography choices...',
         category: 'development',
     }
 ]
-export default designData;
+export default developmentData;

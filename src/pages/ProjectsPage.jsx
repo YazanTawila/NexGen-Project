@@ -6,20 +6,23 @@ import scroll from '../Data/data'
 import Question from '../components/Question/Question'
 import Digital1 from '../components/Digital1/Digital1'
 import Footer from '../components/Footer/Footer'
-import KeyFeaturesProject from "../components/KeyFeaturesProject/KeyFeaturesProject";
-import ProjectTitleComponent from "../components/ProjectTitleComponent/ProjectTitleComponent";
+import KeyFeatures from '../components/KeyFeatures/KeyFeatures'
+import OurWorks from '../components/OurWorks/OurWorks'
+import Hero from '../components/Hero/Hero'
 export default function ProjectsPage() {
   return (
     <div>
         <NavBar/>
-        <ProjectTitleComponent />
-        <KeyFeaturesProject />
+        <Hero  HeroClass={'HeroProjects'} Projects={true} HeroTitle={'Empowering Your Digital Vision'} showDesc={true} HeroLeft={'YT-HeroLiftTow'}
+        HeroDesc={'At NexGen, we are committed to empowering your digital vision with innovative solutions tailored to your unique needs. Our team of skilled professionals, coupled with cutting-edge technologies, ensures that we deliver exceptional results that elevate your online presence.'}
+        />
+        <KeyFeatures/>
+        <OurWorks/>
         <Testimonial/>
         <Question/>
         <Digital1/>
         <InfiniteScroll items={scroll.follow}  InfinityStyle={'YT-slider'}/>
         <Footer/>
-
     </div>
   );
 }

@@ -19,7 +19,7 @@ function Numbers({CssSection,ButtonStyle,iconStyle,ButtonText,NumbersCopmonetntS
                     ImgSrc={ImgSrc}
                     TextSpan={TextSpan}
                     bttonandiconstyle={'YT-bttonandiconstyle'}
-                    iconStyle={'YT-NumbersIconAbout'}
+                    iconStyle={iconStyle}
                     ButtonText={ButtonText}
                     />
             </div>

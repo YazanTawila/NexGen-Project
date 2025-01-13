@@ -6,16 +6,31 @@ import ImageSrc from "../../assets/images/arrow.svg";
 import DownArrow from '../../assets/images/down-arrow.svg'
 import CareersRight from '../CareersRight/CareersRight';
 import BlogsOpenRight from '../BlogsOpenRight/BlogsOpenRight';
-function Hero({show}) {
+import HomeHeroRight from '../HomeHeroRight/HomeHeroRight';
+import ServicesRight from '../ServicesRight/ServicesRight';
+import ProjectsRight from '../ProjectsRight/ProjectsRight';
+function Hero({show,HeroTitle,showDesc,showSlider,HeroDesc,showNumberAbout,HomeRight,CareerRight,OpenRight,showNumberContact,HeroLeft,Services,Projects,HeroClass}) {
     return (
-        <div className='Hero'>
-            <HeroLeftComponent/>
-            {show&& <Numbers CssSection={'YT-NumbersSectionContact '} ButtonStyle={'YT-NumbersSectionButtonContact'} iconStyle={'YT-NumbersIconAbout'}
-            ButtonText={'YT-NumbersSectionButtonText'} NumbersCopmonetntStyle={'YT-NumbersCopmonetnContact'} ImgSrc={DownArrow } TextSpan={'REACH US'}
+        <>
+        <div className={HeroClass}>
+            <HeroLeftComponent HeroTitle={HeroTitle} showDesc={showDesc} showSlider={showSlider} HeroDesc={HeroDesc} HeroLeft={HeroLeft}/>
+            
+            {showNumberAbout&& <Numbers CssSection={'YT-NumbersSectionAbout'} ButtonStyle={'YT-NumbersSectionButtonAbout'} iconStyle={'YT-NumbersIconAbout'}
+            ButtonText={'YT-NumbersSectionButtonText'} NumbersCopmonetntStyle={'YT-NumbersCopmonetntAbout'} ImgSrc={DownArrow} TextSpan={'KNOW MORE'}
             />}
-            <CareersRight/>
-            {/* <BlogsOpenRight/> */}
+            {showNumberContact&& <Numbers CssSection={'YT-NumbersSectionContact '} ButtonStyle={'YT-NumbersSectionButtonContact'} iconStyle={'YT-NumbersIconAbout'}
+            ButtonText={'YT-NumbersSectionButtonText'} NumbersCopmonetntStyle={'YT-NumbersCopmonetnContact'} ImgSrc={DownArrow} TextSpan={'KNOW MORE'}
+            />}
+            {Services&&<ServicesRight/>}
+            {HomeRight&& <HomeHeroRight/>}
+            {CareerRight&&<CareersRight/> }
+            {OpenRight&&<BlogsOpenRight/>  }
+            {Projects&&<ProjectsRight/>  }
         </div>
+        {show&& <Numbers CssSection={'YT-NumbersSection'} ButtonStyle={'YT-NumbersSectionButton'} iconStyle={'YT-NumbersSectionButtonIcon'}
+        ButtonText={'YT-NumbersSectionButtonText'} NumbersCopmonetntStyle={'YT-NumbersCopmonetnt'} ImgSrc={ImageSrc} TextSpan={'KNOW MORE'}
+        />}
+        </>
     )
 }
 

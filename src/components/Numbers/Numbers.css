@@ -1,10 +1,10 @@
 .YT-NumbersSection {
-    width: 100%;
     display: flex;
     gap: 20px;
     padding: 20px;
     border-radius: 20px;
     border: 2px solid var(--border-color);
+    margin: 20px 50px 0px 50px;
 }
 .YT-NumbersSectionButton{
     width: 16.66%;
@@ -101,6 +101,7 @@
         gap: 10px;
         padding: 10px;
         border-radius:16px;
+        margin: 16px 40px 0px 40px;
     }
     .YT-NumbersSectionButtonText{
         font-size: 16px;
@@ -132,6 +133,9 @@
     .YT-NumbersSectionButton{
         width: 48%;
     }
+    .YT-NumbersSectionAbout{
+        margin-top:16px ;
+    }
 }
 
 @media(max-width:1111px){
@@ -140,6 +144,9 @@
     }
 }
 @media(max-width:390px){
+    .YT-NumbersSection {
+        margin: 16px 16px 0px 16px;
+    }
     .YT-NumbersSection :nth-child(5) ,  .YT-NumbersSectionContact :nth-child(5){
         width: 100%;
     }

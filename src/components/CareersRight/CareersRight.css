@@ -21,3 +21,37 @@
     color: var(--text-color);
     margin: 20px 0px 50px 0px;
 }
+
+@media(max-width:1440px){
+    .YT-CareersRight{
+        padding: 40px;
+        border-radius: 12px;
+    }
+    .YT-CareersRight h3{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .YT-CareersRight p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+@media(max-width:1200px){
+    .YT-CareersRight{
+        width: 100%;
+
+    }
+}
+@media(max-width:390px){
+    .YT-CareersRight{
+        padding: 24px;
+    }
+    .YT-CareersRight h3{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .YT-CareersRight p{
+        font-size: 14px;
+        line-height: 21px;
+    }
+}
