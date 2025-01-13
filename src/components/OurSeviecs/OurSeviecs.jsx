@@ -1,8 +1,8 @@
-import OurServicesHomeCards from '../OurServicesHomeCards/OurServicesHomeCards'
+
 import ServiesImgComponent from '../ServiesImgComponent/ServiesImgComponent'
 import Tittel from '../Tittel/Tittel'
 import './OurSeviecs.css'
-
+import OurServicesServiesesCards from '../OurServicesServiesesCards/OurServicesServiesesCards'
 export default function OurSeviecs() {
   return (
     <>
@@ -16,7 +16,7 @@ export default function OurSeviecs() {
                 </div>
                 
         <div className='hm-cards'>
-        <OurServicesHomeCards OurServicesCardsFather={'hm-cards-seviesone'}/>
+     < OurServicesServiesesCards OurServicesCardsFathers={'hm-OurServicesCards'}/>
             <ServiesImgComponent/>
         </div>
         

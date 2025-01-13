@@ -9,6 +9,7 @@ import Footer from '../components/Footer/Footer'
 import KeyFeatures from '../components/KeyFeatures/KeyFeatures'
 import OurWorks from '../components/OurWorks/OurWorks'
 import Hero from '../components/Hero/Hero'
+
 export default function ProjectsPage() {
   return (
     <div>
