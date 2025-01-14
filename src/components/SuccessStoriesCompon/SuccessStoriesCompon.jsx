@@ -20,7 +20,7 @@ export default function SuccessStoriesCompon() {
             TextSpan={"View All"}
           />
         </div>
-        <SuccessStories />
+        
         <SuccessStories Text={'Klothink'} Icon={GhostSmile} TextSpan={'Visit Website'} 
         childtext1={'Industry'} secondtext1={'E-commerce'}childtext2={'Service Utilized'}
         secondtext2 ={'Design & Development'}  showdiv={false}/>
