@@ -9,6 +9,7 @@ import Digital1 from '../components/Digital1/Digital1'
 // import CareersCard from "../components/CareersCard/CareersCard";
 import Footer from '../components/Footer/Footer'
 import Hero from '../components/Hero/Hero'
+import HowToApply from '../components/HowToApply/HowToApply'
 
 
 export default function CareersPage() {
@@ -16,6 +17,7 @@ export default function CareersPage() {
     <div>
         <NavBar/>
         <Hero  HeroClass={'Hero'} CareerRight={true} HeroTitle={'Unlock Your Potential in the Digital World'} showDesc={false} showSlider={false} HeroLeft={'YT-HeroLiftTow'}/>
+        <HowToApply/>
         {/* <JoinTeam /> */}
         {/* <CareersCard /> */}
         <Testimonial/>
