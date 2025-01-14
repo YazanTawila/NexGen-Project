@@ -27,7 +27,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
-    color: var(--p-color);
+    color: var(--buttonicon);
     font-family: var(--roboto-font);
 }
 
@@ -57,6 +57,8 @@
     .Father-Digital {
         padding: 60px;
         border-radius: 16px;
+        margin-left: 40px;
+        margin-right: 41px;
     }
 
     .RH_Child1 {

@@ -10,12 +10,20 @@
         margin:30px 40px;
     }  
 }
+@media(max-width:1100px){
+    .hm-FormOfCountactus{
+        flex-direction: column;
+    }
+}
 @media (max-width:750px) {
     .hm-FormOfCountactus{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
         gap:10px ;
+
+       }  
+    } 
+        @media (max-width:390px) { 
+            .hm-FormOfCountactus{
         margin: 30px 16px;
+            }
     }  
 }

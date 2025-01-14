@@ -16,6 +16,7 @@ function OurWorksBodyCard({TextSpan,showdiv,textdesc,showdesc,stylestoirscard,ch
                             ShowText={false}
                             ShowImg={false}
                             Text={Text} 
+                            styleheading={'YT-heding'}
                             />
                     <ButtonTextandIcon  bttonandiconstyle={'YT-ButtonandText'} 
                     hiedText={false}
