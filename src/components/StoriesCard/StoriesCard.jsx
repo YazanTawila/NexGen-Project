@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import'./StoriesCard.css'
 import StoriesTitel from '../StoriesTitel/StoriesTitel'
 import StoriesDiv from "../StoriesDiv/StoriesDiv"

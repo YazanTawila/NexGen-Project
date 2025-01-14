@@ -10,6 +10,7 @@ import Footer from '../components/Footer/Footer'
 import RelatedBlogs from '../components/RelatedBlogs/RelatedBlogs'
 import Hero from '../components/Hero/Hero'
 
+
 export default function BlogsOpenPage() {
   return (
     <div>
