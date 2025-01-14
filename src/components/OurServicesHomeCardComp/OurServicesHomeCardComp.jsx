@@ -13,6 +13,7 @@ function OurServicesHomeCardComp({TextSpan,Text,Icon,desc,price,OurServicesclass
                         ShowText={false}
                         ShowImg={false}
                         Text={Text} 
+                        styleheading={'hm-StoreCard-heading'} 
                         />
                 <ButtonTextandIcon  bttonandiconstyle={'YT-ButtonandText'} 
                 hiedText={false}
