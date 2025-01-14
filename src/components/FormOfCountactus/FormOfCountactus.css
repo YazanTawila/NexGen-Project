@@ -18,6 +18,12 @@
 @media (max-width:750px) {
     .hm-FormOfCountactus{
         gap:10px ;
-        margin:16px;
+
+       }  
+    } 
+        @media (max-width:390px) { 
+            .hm-FormOfCountactus{
+        margin: 30px 16px;
+            }
     }  
 }

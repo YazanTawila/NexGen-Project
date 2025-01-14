@@ -28,6 +28,14 @@ export default function SuccessStoriesCompon() {
         <SuccessStories Text={'Fitness Tracker App'} Icon={hand} TextSpan={'Visit Website'} 
         childtext1={'Industry'} secondtext1={'Health & Fitness'}childtext2={'Service Utilized'}
         secondtext2 ={'Mobile App Development'} showdiv={false}/>
+        <ButtonTextandIcon  bttonandiconstyle={'hm-SuccessStoriessButton'} 
+                hiedText={false}
+                    ShowButtonIcon={false}
+                    ImgSrc={downArrow}
+                    TextSpan={'View All'} 
+                    ButtonText={'hm-SuccessStoriessButtonText'}
+                    iconStyle={'hm-SuccessStoriessButtonIcon'}
+                />
       </div>
     </>
   );

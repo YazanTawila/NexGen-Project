@@ -10,7 +10,8 @@ export default function StoriesTitel({Text ,Icon,TextSpan,bttonandiconstyle,Show
       <StoriesIcon Icon={Icon} 
            ShowText={false}
            ShowImg={false}
-          Text={Text} 
+          Text={Text}
+          styleheading={'hm-StoreCard-heading'} 
          />
       <ButtonTextandIcon  bttonandiconstyle={'hm-StoreCard-titel-buuton'} 
         hiedText={false}

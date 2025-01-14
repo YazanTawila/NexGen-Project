@@ -8,6 +8,7 @@
 .hm-contanier-contactus-button {
   display: flex;
   gap: 12px;
+  padding-bottom: 80px;
   justify-content: center;
 }
 .hm-tabbutton-form {
@@ -26,7 +27,6 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
-  margin-top: 80px;
 }
 .hm-button-form_1{
   margin-bottom: 30px;
@@ -80,6 +80,7 @@
   .hm-contanier-contactus-button {
     gap: 8px;
     padding-bottom: 60px;
+
   }
   .hm-tabbutton-form {
     border-radius: 8px;
@@ -115,16 +116,18 @@
   .hm-contanier-contactus{
     width: 100%;
     border-radius: 10px;
-    height: max-content;
     padding: 30px;
   }
-  .hm-contatus-form {
+  .hm-contanier-contactus-button {
+    padding-bottom: 30px;
+  }
+  .hm-contatus-form{
     display: flex;
     flex-direction: column;
     gap: 16px;
-    margin-top: 50px;
-}
-  
+     margin-top: 50px;
+  }
+
   .hm-tabbutton-form:nth-child(1) {
     display: none;
   }
@@ -150,5 +153,8 @@
   }
   .Hm-form-icon {
     padding: 14px;
-  }
+    }
 }
+
+}
+

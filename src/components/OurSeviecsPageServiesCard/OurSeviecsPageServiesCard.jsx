@@ -11,6 +11,7 @@ export default function OurSeviecsPageServiesCard({Text,Icon,OurServicesclasscon
                 ShowText={false}
                 ShowImg={false}
                 Text={Text} 
+                styleheading={'hm-srvesingheading'}
                 />
         <ButtonTextandIcon  bttonandiconstyle={'hm-ButtonandText'} 
         hiedText={false}
