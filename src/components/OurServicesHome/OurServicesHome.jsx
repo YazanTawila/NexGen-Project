@@ -10,8 +10,7 @@ function OurServicesHome() {
                 hiedText={true}
                 ShowButtonIcon={true}
                 ImgSrc={ImageSrc}
-                TextHeading={"Our Services"} 
-                backColor={"var(--secondary-color)"}
+                TextHeading={"Our Services"}
             />
             <OurServicesHomeCards OurServicesCardsFather={'YT-OurServicesCards'}/>
         </div>

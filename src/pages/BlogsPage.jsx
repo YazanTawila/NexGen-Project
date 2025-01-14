@@ -4,10 +4,11 @@ import Testimonial from '../components/Testimonial/Testimonial'
 import InfiniteScroll from '../components/InfiniteScroll/InfiniteScroll'
 import scroll from '../Data/data'
 import OurBlogs from '../components/OurBlogs/OurBlogs'
-import OurBlogsCards from '../components/OurBlogsCards/OurBlogsCards'
 import Question from '../components/Question/Question'
 import Digital1 from '../components/Digital1/Digital1'
 import Footer from '../components/Footer/Footer'
+
+
 
 export default function BlogsPage() {
   return (
@@ -17,7 +18,7 @@ export default function BlogsPage() {
         <Testimonial/>
         <Question/>
         <Digital1/>
-        <InfiniteScroll items={scroll.follow} color={'var(--secondary-color)'}/>
+        <InfiniteScroll items={scroll.follow} InfinityStyle={'YT-slider'}/>
         <Footer/>
     </div>
   )

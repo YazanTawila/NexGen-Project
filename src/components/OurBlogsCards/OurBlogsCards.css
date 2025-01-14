@@ -1,3 +1,7 @@
+a{
+    list-style: none;
+    text-decoration: none;
+}
 .mh-blogAllCards{
     display: flex;
     justify-content: center;
@@ -127,7 +131,6 @@ color: var(--titles-color);
             flex-wrap: wrap;
             justify-content: center;
             gap: 10px;
-            padding: 10px;
         }
         .mh-blogcard{
             width: 100%;

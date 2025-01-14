@@ -1,0 +1,13 @@
+.MA-Careers-TitleContainer {
+  border-radius: 16px;
+  border-color: var(--border-color);
+}
+@media (max-width: 420px) {
+  .MA-Careers-TitleContainer {
+    width: 521px;
+  }
+
+  .MA-Careers-TitleContainer h2 {
+    font-size: 28px;
+  }
+}
