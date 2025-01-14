@@ -8,17 +8,19 @@ import Digital1 from '../components/Digital1/Digital1'
 import Footer from '../components/Footer/Footer'
 
 import RelatedBlogs from '../components/RelatedBlogs/RelatedBlogs'
+import Hero from '../components/Hero/Hero'
 
 
 export default function BlogsOpenPage() {
   return (
     <div>
-        <NavBar/>  
+        <NavBar/>
+        <Hero  HeroClass={'Hero'} OpenRight={true} HeroTitle={'Mastering the Art of Minimalistic Design'} showDesc={false} showSlider={false} HeroLeft={'YT-HeroLiftTow'}/>
         <RelatedBlogs/>
         <Testimonial/>
         <Question/>
         <Digital1/>
-        <InfiniteScroll items={scroll.follow} color={'var(--secondary-color)'}/>
+        <InfiniteScroll items={scroll.follow}  InfinityStyle={'YT-slider'}/>
         <Footer/>
     </div>
   )

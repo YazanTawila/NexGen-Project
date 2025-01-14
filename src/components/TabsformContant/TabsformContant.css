@@ -23,22 +23,26 @@
   color: var(--text-color);
   text-align: center;
   border: 1px solid var(--buttonicon);
+  
 }
 
 .hm-contatus-form {
   display: flex;
   flex-direction: column;
   gap: 30px;
+
 }
 .hm-button-form_1{
   margin-bottom: 30px;
+  margin-top: 80px;
+
 }
 .hm-form-input {
   width: 100%;
   height: 88px;
   border-radius: 14px 100px 100px 14px;
   padding: 10px 24px 10px 14px;
-  background-color: var(--input-color);
+  background-color: var(  --border-color);
   font-family: var(--roboto-mono-font);
   font-size: 18px;
   font-weight: 500;
@@ -101,6 +105,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    margin-top: 60px;
   }
 
   .hm-form-input {
@@ -127,30 +132,32 @@
 @media(max-width:1100px){
   .hm-contanier-contactus{
     width: 100%;
+    border-radius: 10px;
+    height: max-content;
+    padding: 30px;
   }
 }
-@media (max-width: 750px) {
-  .hm-contanier-contactus {
-    border-radius: 10px;
-    padding: 30px;
-    height: max-content;
-  }
-
   .hm-contatus-form {
     display: flex;
     flex-direction: column;
     gap: 16px;
+  .hm-contatus-form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+ margin-top: 50px;
+
   }
 
   .hm-tabbutton-form:nth-child(1) {
     display: none;
   }
-
   .hm-tabbutton-form {
     border-radius: 8px;
     padding: 14px 20px;
     font-size: 14px;
     line-height: 21px;
+   
   }
 
   .hm-form-input {
@@ -171,5 +178,10 @@
 
   .Hm-form-icon {
     padding: 14px;
+  }
+}
+@media (max-width:390px) {
+  .hm-contanier-contactus {
+ width: 358px;
   }
 }

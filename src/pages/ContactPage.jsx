@@ -9,19 +9,22 @@ import BigSectionBlogOpen from '../components/BigSectionBlogOpen/BigSectionBlogO
 import Question from '../components/Question/Question'
 import Footer from '../components/Footer/Footer'
 import FormOfCountactus from '../components/FormOfCountactus/FormOfCountactus'
-
-
+import Hero from '../components/Hero/Hero'
 export default function ContactPage() {
-        return (
-                <div>
-                        <NavBar />
-                        <Testimonial />
-                        <Digital1 />
-                        <InfiniteScroll items={scroll.follow} color={'var(--secondary-color)'} />
-                        <BigSectionBlogOpen />
-                        <FormOfCountactus />
-                        <Question />
-                        <Footer />
-                </div>
-        )
+  return (
+    <div>
+        <NavBar/>
+        <Hero  HeroClass={'Hero'} showNumberContact={true} HeroTitle={'Get in Touch with Us Today!'} showDesc={true} showSlider={true} HeroLeft={'YT-HeroLeftComponent'}
+        HeroDesc={'At NexGen, we value your inquiries, feedback, and collaborations. Whether you are interested in our digital services, have questions about our projects, or want to explore potential partnerships, we encourage you to reach out to our dedicated team.'}
+        />
+        <BigSectionBlogOpen />
+        <FormOfCountactus/>
+        <Testimonial/>
+        <Question/>
+        <Digital1/>
+        <InfiniteScroll items={scroll.follow}  InfinityStyle={'YT-slider'}/>
+        <Footer/>
+    </div>
+  )
+
 }

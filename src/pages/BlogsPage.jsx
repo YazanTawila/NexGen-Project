@@ -9,6 +9,7 @@ import Digital1 from '../components/Digital1/Digital1'
 import Footer from '../components/Footer/Footer'
 
 
+
 export default function BlogsPage() {
   return (
     <div>
@@ -17,7 +18,7 @@ export default function BlogsPage() {
         <Testimonial/>
         <Question/>
         <Digital1/>
-        <InfiniteScroll items={scroll.follow} color={'var(--secondary-color)'}/>
+        <InfiniteScroll items={scroll.follow} InfinityStyle={'YT-slider'}/>
         <Footer/>
     </div>
   )

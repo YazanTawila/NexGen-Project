@@ -6,40 +6,27 @@ import Testimonial from '../components/Testimonial/Testimonial'
 import InfiniteScroll from '../components/InfiniteScroll/InfiniteScroll'
 import scroll from '../Data/data'
 import Question from '../components/Question/Question'
-
 import Digital1 from '../components/Digital1/Digital1'
-
 import ReasonsToChoose from '../components/ReasonsToChoose/ReasonsToChoose'
 import OurServicesHome from '../components/OurServicesHome/OurServicesHome'
 import OurWorks from '../components/OurWorks/OurWorks'
+import Hero from '../components/Hero/Hero'
 
 
 export default function HomePage() {
-        // return (
-        //         <div>
-        //                 <NavBar />
-        //                 <ReasonsToChoose />
-        //                 <Question />
-        //                 <Testimonial />
-        //                 <Digital1 />
-        //                 {/* <InfiniteScroll items={scroll.follow} color={'var(--secondary-color)'} /> */}
-        //                 {/* <Footer/> */}
-        //                 <InfiniteScroll items={scroll.follow} color={'var(--secondary-color)'} />
-        //                 <Footer />
-
-        //         </div>
-        // )
-        return (
-                <div>
-                        <NavBar />
-                        <ReasonsToChoose />
-                        <OurServicesHome />
-                        <OurWorks />
-                        <Testimonial />
-                        <Question />
-                        <Digital1 />
-                        <InfiniteScroll items={scroll.follow} color={'var(--secondary-color)'} />
-                        <Footer />
-                </div>
-        )
+  return (
+    <div>
+        <NavBar/> 
+        <Hero HeroClass={'Hero'} show={true} HomeRight={true} HeroTitle={'Digital Solutions That Drive Success'} showDesc={true} showSlider={true} HeroLeft={'YT-HeroLeftComponent'}
+          HeroDesc={'At NexGen, we believe in the transformative power of digital solutions. Our team of experts is dedicated to helping businesses like yours thrive in the fast-paced digital landscape.'}/>
+        <ReasonsToChoose/>
+        <OurServicesHome/>
+        <OurWorks/>
+        <Testimonial/>
+        <Question/>
+        <Digital1/>
+        <InfiniteScroll items={scroll.follow}   InfinityStyle={'YT-slider'}/>
+        <Footer/>
+    </div>
+  )
 }
