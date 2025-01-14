@@ -9,14 +9,16 @@ import JoinTeam from "../components/JoinTeam/JoinTeam";
 import CareersCard from "../components/CareersCard/CareersCard";
 import Footer from '../components/Footer/Footer'
 import Hero from '../components/Hero/Hero'
+import HowToApply from '../components/HowToApply/HowToApply'
 
 export default function CareersPage() {
   return (
     <div>
         <NavBar/>
         <Hero  HeroClass={'Hero'} CareerRight={true} HeroTitle={'Unlock Your Potential in the Digital World'} showDesc={false} showSlider={false} HeroLeft={'YT-HeroLiftTow'}/>
-        <JoinTeam />
-        <CareersCard />
+        {/* <JoinTeam /> */}
+        <HowToApply/>
+        {/* <CareersCard /> */}
         <Testimonial/>
         <Question/>
         <Digital1/>
