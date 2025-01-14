@@ -5,18 +5,20 @@ import InfiniteScroll from '../components/InfiniteScroll/InfiniteScroll'
 import scroll from '../Data/data'
 import Question from '../components/Question/Question'
 import Digital1 from '../components/Digital1/Digital1'
-import JoinTeam from "../components/JoinTeam/JoinTeam";
-import CareersCard from "../components/CareersCard/CareersCard";
+// import JoinTeam from "../components/JoinTeam/JoinTeam";
+// import CareersCard from "../components/CareersCard/CareersCard";
 import Footer from '../components/Footer/Footer'
 import Hero from '../components/Hero/Hero'
+import JoinOurTeam from '../components/JoinOurTeam/JoinOurTeam'
 
 export default function CareersPage() {
   return (
     <div>
         <NavBar/>
         <Hero  HeroClass={'Hero'} CareerRight={true} HeroTitle={'Unlock Your Potential in the Digital World'} showDesc={false} showSlider={false} HeroLeft={'YT-HeroLiftTow'}/>
-        <JoinTeam />
-        <CareersCard />
+        {/* <JoinTeam /> */}
+        {/* <CareersCard /> */}
+        <JoinOurTeam/>
         <Testimonial/>
         <Question/>
         <Digital1/>

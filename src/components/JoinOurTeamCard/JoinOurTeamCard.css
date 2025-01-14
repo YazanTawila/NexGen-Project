@@ -1,0 +1,11 @@
+.YT-JoinOurTeamCard{
+    width: 49.43%;
+    padding: 50px;
+    border-radius: 14px;
+
+}
+.YT-TopCard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
