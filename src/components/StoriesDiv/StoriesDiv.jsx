@@ -1,12 +1,22 @@
 import './StoriesDiv.css'
 import shap from '../../assets/images/Shape.svg'
-export default function StoriesDiv({childtext,secondtext,showdesc,textdesc}) {
+export default function StoriesDiv({childtext1,secondtext1,childtext2,secondtext2,styleStoriesDiv,StyleStoriesTextDiv,StyleStoriesText}) {
   return (
-    <div className='hm-StoriesDiv' >
-      <span>{childtext}</span>
+    <>
+    <div  className={styleStoriesDiv}>
+    <div className={StyleStoriesTextDiv} >
+      <p>{childtext1}</p>
       <img src={shap}></img>
-      <span className='hm-childtext'>{secondtext}</span>
+      <span className={StyleStoriesText}>{secondtext1}</span>
       
     </div>
+    <div className={StyleStoriesTextDiv} >
+      <p>{childtext2}</p>
+      <img src={shap}></img>
+      <span className={StyleStoriesText}>{secondtext2}</span>
+      
+    </div>
+    </div>
+    </>
   )
 }

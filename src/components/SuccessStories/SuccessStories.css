@@ -3,13 +3,12 @@
     margin-top: 20px ;
     }
     .hm-Stories-content{
-        border: 2px solid var( --border-color) ;
         display: flex; 
         align-items: center;
         gap:20px ;
         padding: 50px;
         border-radius: 20px;
-        margin: 20px;
+        border: 2px solid var(--border-color);
     }
     @media (max-width:1440px) {
         .HM-Margin{
@@ -20,7 +19,7 @@
             gap:10px ;
             padding: 30px;
             border-radius: 16px;
-            margin: 15px;
+           justify-content: center;
         }    
     }
     @media (max-width:990px) {

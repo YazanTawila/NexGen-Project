@@ -31,6 +31,27 @@ export default function TabsTitel() {
           <p >{TabsButtonTittel[activetIndex].contentTabs}</p>
         </div>
       </div>
+      <div className='hm-Container'>
+        <div className='hm-tabsbutton'>
+          {TabsButtonTittel?.map((button, index) => (
+            <ButtonTabs
+              buttonStyle={'hm-tabbutton'} key={button.id}
+              TextTabs={button.TextTabs}
+              onClick={() =>
+                handleButtonOnclick(index)
+              }
+              backtabsColor={activetIndex === index ? 'var(--orange-color)' : 'var( --border-color)'}
+              colorFont={activetIndex === index ? 'var(  --primary-color)' : 'var(--text-color)'
+              }
+            />
+          )
+          )}
+        </div>
+        <div className='hm-tabscontanier'>
+          <h2 >{TabsButtonTittel[activetIndex].titelTabs}</h2>
+          <p >{TabsButtonTittel[activetIndex].contentTabs}</p>
+        </div>
+      </div>
     </>
   )
 }

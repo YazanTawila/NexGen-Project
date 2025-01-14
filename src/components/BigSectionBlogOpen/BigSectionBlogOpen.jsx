@@ -1,5 +1,4 @@
-/* eslint-disable no-unused-vars */
-
+import React , { useState} from 'react'
 import './BigSectionBlogOpen.css'
 import RH_imgSection from '../../assets/images/blogs-5.png'
 import RH_img1 from '../../assets/images/twitter.png'
@@ -10,15 +9,15 @@ import RH_img5 from '../../assets/images/arrow.svg'
 import RH_img6 from '../../assets/images/Share (1).png'
 import { FaHeart } from "react-icons/fa6";
 
-// function Color_RH(){
-//     if(this.style.color === 'red')
-//         this.style.color='blue'
-//     else
-//         this.style.color='red'
-// }
+
+
 
 
 function BigSectionBlogOpen() {
+    const[isRed,setIsRed]=useState(false);
+    const handleClick=()=>{
+        setIsRed(!isRed);
+    }
     return (
         <section className='Father-BigSection'>
             <img src={RH_imgSection} className='RH_imgSection' />
@@ -87,7 +86,9 @@ function BigSectionBlogOpen() {
                     </div>
                     <div className='RH_SubDivEnd2'>
                         <div className='RH_SubDivEnd22 RH_margin'>
-                            <div className='Div_RH_img1_3'><FaHeart className='RH_heart' /></div>
+
+                            <div className='Div_RH_img1_3'> <FaHeart className='RH_heart' onClick={handleClick} style={{color:isRed?'red':""}}/></div>
+
                             <div className='RH_EndDivShare'>
                                 <h6>LIKED BY</h6>
                                 <div className='RH_EndDivShareDiv'>

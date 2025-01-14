@@ -1,6 +1,9 @@
 .Hm-contanier-Stories{
     margin: 120px 50px;
     }
+    .Hm-Succes{
+        display: none;
+    }
     @media (max-width:1440px) {
         .Hm-contanier-Stories{
             margin: 80px 40px;
@@ -9,5 +12,16 @@
         @media (max-width:990px) {
             .Hm-contanier-Stories{
                 margin: 50px 16px;
+                }
+            }
+            @media (max-width:390px) {
+                .Hm-Succes {
+                    display:flex ;
+                    flex-direction: column;
+                }
+                .HM-Sucess-icon{
+               display: flex;
+               justify-content: center;
+               align-items: center;
                 }
             }

@@ -21,7 +21,7 @@ const questions = [
   },
   {
     id: 5,
-    question:"abc5What is your approach to user experience (UX) design?",
+    question:"What is your approach to user experience (UX) design?",
     answer:"The timeline varies depending on the project's complexity and requirements. Our team strives to deliver projects on time while maintaining the highest quality standards.",
   },
 ];

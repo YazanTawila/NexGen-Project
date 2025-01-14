@@ -13,6 +13,9 @@
 
 }
 @media (max-width:1440px) {
+    .Hm-contanier-Question{
+     margin: 80px 50px;
+    }
     .hm-question-content{
         gap: 10px;
     }
@@ -20,11 +23,17 @@
         margin-top: 10px ;
     }
 }
-@media (max-width:770px) {
+@media (max-width:990px) {
     .hm-question-content{
         display: flex;
         flex-wrap: wrap;
         gap: 10px;
         align-items: center;
+        justify-content: center;
     }
+}
+@media (max-width:390px) {
+    .Hm-contanier-Question{
+        margin: 80px 16px;
+    }  
 }
