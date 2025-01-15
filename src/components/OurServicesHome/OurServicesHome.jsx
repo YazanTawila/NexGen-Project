@@ -12,7 +12,7 @@ function OurServicesHome() {
                 ImgSrc={ImageSrc}
                 TextHeading={"Our Services"}
             />
-            <OurServicesHomeCards OurServicesCardsFather={'YT-OurServicesCards'}/>
+            <OurServicesHomeCards OurServicesCardsFather={'YT-OurServicesCards block1'}/>
         </div>
     )
 }

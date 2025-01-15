@@ -7,7 +7,7 @@ function Cards({ TestimonialCardData }) {
     <div className="YT-Testimonial-Cards">
       {TestimonialCardData?.map((e, index) => {
         return (
-          <CardComponent
+          <CardComponent 
             key={index}
             title={e.title}
             desc={e.desc}

@@ -57,7 +57,7 @@ export default function BlogsTittle() {
           DEVELOPMENT
         </button>
       </div>
-      <Link to={'/BlogsOpenPage'} className='mh-blogs'>
+      <Link to={'/BlogsOpenPage'} className='mh-blogs block'>
         <div className='mh-blogphoto'>
 
         </div>

@@ -1,3 +1,35 @@
+ @keyframes appearl {
+    from{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+ }
+ @keyframes appearr {
+    from{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+ }
+ .block{
+    animation: appearl 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+ }
+ .block1{
+    animation: appearr 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+ }
+ 
+ 
  .MH-BUT {
     display: flex;
     align-items: center;
@@ -52,6 +84,7 @@
 .MH-HEADING{
     padding: 40px 30px;
     background-color:var(--border-color) ;
+    border-top: 2PX solid var(--p-color) ;
 }
 .MH-HEADING h3{
     width: 94%;
@@ -63,15 +96,16 @@
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    border-top: 2PX solid var(--p-color) ;
+   border: none;
 }
 .MH-PARA{
     height: 60.879%;
     padding: 30px;
+    border-top: 2PX solid var(--p-color) ;
 }
 .MH-HOWCARD .MH-PARA p {
     height: 60%;
-    border-top: 2PX solid var(--p-color) ;
+    
     font-family:var(--roboto-font);
     font-size: 18px;
     font-weight: 400;
