@@ -151,6 +151,14 @@
     color: var(--text-color);
     font-family: var(--roboto-mono-font);
 }
+.YT-heding{
+    font-family:var(--roboto-font);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: var(--titles-color);
+    text-transform: uppercase;
+}
 @media(max-width:1440px){
     .YT-OurWorksBodyCard{
         margin-top: 10px ;
@@ -217,6 +225,10 @@
         font-size: 16px;
         line-height: 24px;
     }
+    .YT-heding{
+        font-size: 18px;
+        line-height: 27px;
+    }
 }
 @media(max-width:1200px){
     .YT-OurWorksRightCard{
@@ -262,5 +274,10 @@
     }
     .YT-OurWorksLeftCardButton{
         display: flex;
+    }
+
+    .YT-heding{
+        font-size: 16px;
+        line-height: 24px;
     }
 }

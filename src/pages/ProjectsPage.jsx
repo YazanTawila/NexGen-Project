@@ -9,6 +9,7 @@ import Footer from '../components/Footer/Footer'
 import KeyFeatures from '../components/KeyFeatures/KeyFeatures'
 import OurWorks from '../components/OurWorks/OurWorks'
 import Hero from '../components/Hero/Hero'
+import ProjectsShowcase from '../components/ProjectsShowcase/ProjectsShowcase'
 
 export default function ProjectsPage() {
   return (
@@ -18,7 +19,7 @@ export default function ProjectsPage() {
         HeroDesc={'At NexGen, we are committed to empowering your digital vision with innovative solutions tailored to your unique needs. Our team of skilled professionals, coupled with cutting-edge technologies, ensures that we deliver exceptional results that elevate your online presence.'}
         />
         <KeyFeatures/>
-        <OurWorks/>
+        <ProjectsShowcase/>
         <Testimonial/>
         <Question/>
         <Digital1/>
