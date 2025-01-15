@@ -19,11 +19,10 @@
     .hm-FormOfCountactus{
         gap:10px ;
 
-       }  
+    }  
     } 
         @media (max-width:390px) { 
             .hm-FormOfCountactus{
         margin: 30px 16px;
             }
     }  
-}
