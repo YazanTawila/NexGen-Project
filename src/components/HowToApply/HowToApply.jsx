@@ -16,14 +16,15 @@ export default function HowToApply() {
           }, []);
   return (
     <div className='MH-SECTIO'>
-        <Tittel
+        <Tittel 
             hiedText={false}
             ShowButtonIcon={true}
             TextHeading={"HOW TO APPLY"}
         />
         <div className='MH-ALLHOW'>
+        
             {howto.map((card,index) =>(
-                <div className={`MH-HOWCARD ${isSmallScreen && index >=3 && !showLastCard ? 'hidden' : ''}`}>
+                <div className={`MH-HOWCARD block ${isSmallScreen && index >=3 && !showLastCard ? 'hidden' : ''}`}>
                     <div className='MH-SPAN'>
                         <span>{card.step}</span>
                     </div>
@@ -37,9 +38,9 @@ export default function HowToApply() {
                             <img src={downArrow} alt="" /> KNOW MORE
                         </button>
                     </div>
-                
                 </div>
                 ))}
+                
              {isSmallScreen && !showLastCard && (
                     <button className='mh-hiddenbtn' onClick={() => setShowLastCard(true)}>
                      <img src={downArrow} alt="" /> ALL STEPS

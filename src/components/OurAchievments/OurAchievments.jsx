@@ -24,7 +24,7 @@ export default function OurAchievments() {
         />
         <div className='MH-ALLACHIEV'>
         {achievements.map((card,index) =>(
-            <div className={`MH-ACHIEVCARD ${isSmallScreen && index === achievements.length - 1 && !showLastCard ? 'hidden' : ''}`}>
+            <div className={`MH-ACHIEVCARD block ${isSmallScreen && index === achievements.length - 1 && !showLastCard ? 'hidden' : ''}`}>
                 <div className='MH-SPAN'>
                 <span>{card.date}</span>
                 </div>

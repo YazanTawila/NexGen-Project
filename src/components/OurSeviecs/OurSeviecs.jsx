@@ -15,7 +15,7 @@ export default function OurSeviecs() {
                   />
                 </div>
                 
-        <div className='hm-cards'>
+        <div className='hm-cards block1'>
      < OurServicesServiesesCards OurServicesCardsFathers={'hm-OurServicesCards'}/>
             <ServiesImgComponent/>
         </div>

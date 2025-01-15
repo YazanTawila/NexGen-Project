@@ -32,7 +32,7 @@ export default function OurBlogsCards({ activeTab }) {
       {orderedBlogs.map((blog, index) => (
         <Link to={'/BlogsOpenPage'}
           key={index}
-          className={`mh-blogcard ${isSmallScreen && index === orderedBlogs.length - 1 && !showLastCard ? 'hidden' : ''}`}
+          className={`mh-blogcard block ${isSmallScreen && index === orderedBlogs.length - 1 && !showLastCard ? 'hidden' : ''}`}
         >
           <div>
             <img src={blog.img} className='mh-blogphot' alt="" />

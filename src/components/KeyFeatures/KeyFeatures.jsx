@@ -13,7 +13,7 @@ export default function KeyFeatures() {
           backColor={"var(--secondary-color)"}
           />
 
-        <div className='MA-KEYCARDS'>
+        <div className='MA-KEYCARDS block1'>
           {KeyFeaturesdata.map((key,index) =>(
               <div className='MA-KEYCARD'>
                   <div className='MA-ICON'>
