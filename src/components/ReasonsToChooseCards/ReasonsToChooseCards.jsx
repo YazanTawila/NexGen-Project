@@ -4,7 +4,7 @@ import ReasonsCardComponent from '../ReasonsCardComponent/ReasonsCardComponent'
 
 function ReasonsToChooseCards({ReasonsToChooseCardData}) {
     return (
-        <div className='YT-ReasonsToChooseCards block'>
+        <div className='YT-ReasonsToChooseCards'>
         {ReasonsToChooseCardData?.map((e,index)=>{
             return(
                 <ReasonsCardComponent key={index} title={e.title} desc={e.desc}  
