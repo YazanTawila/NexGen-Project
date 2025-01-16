@@ -1,11 +1,6 @@
 .Hm-contanier-Stories{
     margin: 120px 50px;
-    }
-    .Hm-Succes{
-        display: none;
-    }
-    .hm-bottom-text{
-        display: none;
+
     }
     .hm-SuccessStoriessButton{
         width: 100%;
@@ -37,17 +32,6 @@
         .Hm-contanier-Stories{
             margin: 80px 40px;
             }
-        }
-            @media (max-width:790px) {
-                .Hm-Succes {
-                    display:flex ;
-                    flex-direction: column;
-                }
-                .HM-Sucess-icon{
-               display: flex;
-               justify-content: center;
-               align-items: center;
-                }
               }  
               @media (max-width:390px) {  
                 .hm-SuccessStoriessButton{

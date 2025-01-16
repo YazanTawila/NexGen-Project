@@ -104,7 +104,6 @@ border-radius: 12px;
 }
 @media(max-width:750px){
     .hm-OurServicesCardcontainer{
-   width: 338px;
    height: max-content;
     padding: 24px;
     }

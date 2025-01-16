@@ -23,21 +23,22 @@
    text-transform: uppercase;
  }
   }
-  @media (max-width:390px) {
+  @media (max-width:790px) {
     .hm-tabbutton {
       display: flex;
       gap: 8px;  
       margin-bottom:10px;
       border-radius: 8px;
-      padding: 14px 20px;
+      /*padding: 14px 20px;*/
+      padding: 10px 5px;
       font-size: 14px;
       line-height: 21px;  
   }
 }
-
 @media (max-width:390px) {
   .hm-tabbutton {
     display: flex;
     gap: 8px;
   }
 }
+
