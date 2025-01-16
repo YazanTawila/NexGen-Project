@@ -7,14 +7,14 @@ import CareersCardData from '../../Data/CareersCardData'
 function JoinOurTeam() {
 
   return (
-    <div className='MA-JoinOurTeam'>
+    <div className='MA-JoinOurTeam '>
       <Tittel
         hiedText={true}
         ShowButtonIcon={true}
         ImgSrc={ImageSrc}
         TextHeading={"Join Our Team at NexGen"}
         />
-        <div className='MA-JoinOurTeamCardDiv'>
+        <div className='MA-JoinOurTeamCardDiv block'>
             {CareersCardData?.map((e, index) => {
             return (
               <JoinOurTeamCard
