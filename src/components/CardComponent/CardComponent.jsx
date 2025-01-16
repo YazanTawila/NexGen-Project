@@ -5,7 +5,7 @@ import rightArrow from '../../assets/images/right-arrow.svg'
 function CardComponent({title,desc,img,name,career,cardTitle,cardDesc,ImgSrc}) {
 
     return (
-        <div className='YT-Card-Component'>
+        <div className='YT-Card-Component block1'>
             <div className='YT-Card-Component-Top'>
                 <h3 className='YT-Testimonial-Card-Title'>{title}</h3>
                 <p className='YT-Testimonial-Card-Desc'>{desc}</p>

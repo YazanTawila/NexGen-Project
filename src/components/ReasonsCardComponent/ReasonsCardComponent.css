@@ -30,7 +30,7 @@
     margin-bottom: 40px;
 }
 .YT-BlackIcon{
-    border-radius: 100px; 
+    border-radius: 50%; 
     border:  1px solid var( --buttonicon );   
     background-color: var(--primary-color);
     padding: 20px;

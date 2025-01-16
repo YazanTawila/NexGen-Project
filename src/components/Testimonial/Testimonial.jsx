@@ -4,8 +4,8 @@ import './Testimonial.css'
 import TestimonialCardData from '../../Data/TestimonialCardData'
 import Tittel from '../Tittel/Tittel'
 import ImageSrc from "../../assets/images/arrow.svg";
-import ButtonIcon from '../ButtonIcon/ButtonIcon'
-import rightArrow from '../../assets/images/right-arrow.svg'
+import ButtonTextandIcon from '../ButtonTextandIcon/ButtonTextandIcon'
+import downarrow from "../../assets/images/down-arrow.svg";
 function Testimonial() {
     return (
         <div className='YT-Testimonial'>
@@ -15,9 +15,16 @@ function Testimonial() {
             ImgSrc={ImageSrc}
             TextHeading={"TESTIMONIALS"}
             TextSpan={"ALL TESTIMONIALS"}
-            backColor={"var(--secondary-color)"}
             />
             <Cards TestimonialCardData={TestimonialCardData}/>
+            <ButtonTextandIcon  bttonandiconstyle={'YT-OurWorksButton'} 
+                hiedText={false}
+                    ShowButtonIcon={false}
+                    ImgSrc={downarrow}
+                    TextSpan={'ALL Testimonials'} 
+                    ButtonText={'YT-OurWorksButtonText'}
+                    iconStyle={'YT-OurWorksButtonIcon'}
+                />
         </div>
     )
 }
