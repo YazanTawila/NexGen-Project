@@ -9,7 +9,7 @@ import StoriesDiv from '../StoriesDiv/StoriesDiv'
 
 function OurWorksBodyCard({TextSpan,showdiv,textdesc,showdesc,stylestoirscard,childtext1,secondtext1,childtext2,secondtext2,Text ,Icon,TechnologiesUsed,TeamMembers,imgProgect }) {
     return (
-        <div className='YT-OurWorksBodyCard '>
+        <div className='YT-OurWorksBodyCard block'>
             <div className='YT-OurWorksLeftCard'>
                 <div className='hm-StoreCard-titel'>
                     <StoriesIcon Icon={Icon} 

@@ -14,7 +14,7 @@ function JoinOurTeam() {
         ImgSrc={ImageSrc}
         TextHeading={"Join Our Team at NexGen"}
         />
-        <div className='MA-JoinOurTeamCardDiv block'>
+        <div className='MA-JoinOurTeamCardDiv '>
             {CareersCardData?.map((e, index) => {
             return (
               <JoinOurTeamCard

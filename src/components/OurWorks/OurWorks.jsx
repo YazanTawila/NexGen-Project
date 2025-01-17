@@ -14,7 +14,7 @@ import Icon2 from '../../assets/images/Balloon.svg'
 import ButtonTextandIcon from '../ButtonTextandIcon/ButtonTextandIcon';
 function OurWorks() {
     return (
-        <div className='YT-OurWorks'>
+        <div className='YT-OurWorks block'>
             <Tittel
                 hiedText={false}
                 ShowButtonIcon={false}

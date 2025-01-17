@@ -3,7 +3,7 @@ import Tittel from '../Tittel/Tittel'
 import ImageSrc from "../../assets/images/arrow.svg";
 import './ReasonsToChoose.css'
 import ReasonsToChooseCards from '../ReasonsToChooseCards/ReasonsToChooseCards';
-import ReasonsToChooseCardData from '../../Data/ReasonsToChooseCardData'
+import ReasonsToChooseCardData from '../../Data/ReasonsToChooseCardData';
 function ReasonsToChoose() {
     return (
         <div className='YT-ReasonsToChoose'>
@@ -14,7 +14,7 @@ function ReasonsToChoose() {
             TextHeading={"Reasons to Choose NexGen for Your Digital Journey"}
             />
             <ReasonsToChooseCards  ReasonsToChooseCardData={ReasonsToChooseCardData}/>
-    </div>
+        </div>
     )
 }
 

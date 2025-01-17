@@ -59,7 +59,7 @@
         right: 5px;
     }
 }
-@media (max-width:1200px){
+@media (max-width:1350px){
     .YT-HomeHeroRight{
         display: none;
     }

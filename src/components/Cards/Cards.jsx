@@ -4,7 +4,7 @@ import CardComponent from "../CardComponent/CardComponent";
 
 function Cards({ TestimonialCardData }) {
   return (
-    <div className="YT-Testimonial-Cards">
+    <div className="YT-Testimonial-Cards  block1">
       {TestimonialCardData?.map((e, index) => {
         return (
           <CardComponent 
