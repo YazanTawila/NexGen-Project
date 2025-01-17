@@ -1,13 +1,11 @@
-import React from 'react'
 import './JoinOurTeamCard.css'
 import ButtonTextandIcon from '../ButtonTextandIcon/ButtonTextandIcon'
 import StoriesIcon from '../StoriesIcon/StoriesIcon'
 import ImageSrc from "../../assets/images/arrow.svg";
-import StoriesDiv from '../StoriesDiv/StoriesDiv';
 import shape from '../../assets/images/Shape.svg'
 function JoinOurTeamCard({Desc,Icon,Text,Salary,Experience,Deadline}) {
     return (
-        <div className='MA-JoinOurTeamCard '>
+        <div>
             <div className='hm-StoreCard-titel'>
                     <StoriesIcon Icon={Icon} 
                         ShowText={false}
