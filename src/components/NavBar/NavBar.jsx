@@ -22,7 +22,7 @@ export default function NavBar() {
             <NavLink to={'/BlogsPage'} className='MH-button'>BLOGS</NavLink>
             <Link to={'/ContactPage'} className='MH-lbutton'> CONTACT US</Link>
         </ul>
-        <button className='togle' onClick={handleOpen} ><img src={toggle} className='toggle-img' /></button>
+        <button className='togle ' onClick={handleOpen} ><img src={toggle} className='toggle-img' /></button>
         </div>
         
     </section>

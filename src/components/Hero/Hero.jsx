@@ -27,9 +27,8 @@ function Hero({show,HeroTitle,showDesc,showSlider,HeroDesc,showNumberAbout,HomeR
             {OpenRight&&<BlogsOpenRight/>  }
             {Projects&&<ProjectsRight/>  }
         </div>
-        {show&& <Numbers CssSection={'YT-NumbersSection'} ButtonStyle={'YT-NumbersSectionButton'} iconStyle={'YT-NumbersSectionButtonIcon'}
-        ButtonText={'YT-NumbersSectionButtonText'} NumbersCopmonetntStyle={'YT-NumbersCopmonetnt'} ImgSrc={ImageSrc} TextSpan={'KNOW MORE'}
-        />}
+            {show&& <Numbers CssSection={'YT-NumbersSection'} ButtonStyle={'YT-NumbersSectionButton'} iconStyle={'YT-NumbersSectionButtonIcon'}
+            ButtonText={'YT-NumbersSectionButtonText'} NumbersCopmonetntStyle={'YT-NumbersCopmonetnt'} ImgSrc={ImageSrc} TextSpan={'KNOW MORE'}/>}
         </>
     )
 }

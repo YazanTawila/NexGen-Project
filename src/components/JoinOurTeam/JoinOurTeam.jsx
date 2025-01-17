@@ -25,7 +25,7 @@ function JoinOurTeam() {
         ImgSrc={ImageSrc}
         TextHeading={"Join Our Team at NexGen"}
         />
-        <div className='MA-JoinOurTeamCardDiv block'>
+        <div className='MA-JoinOurTeamCardDiv '>
             {CareersCardData?.map((e, index) => {
             return (
               <div className={`MA-JoinOurTeamCard block1 ${isSmallScreen && index >=2 && !showLastCard ? 'hidden' : ''}`}>
