@@ -12,7 +12,7 @@
 }
 @media (max-width:1440px){
     .YT-Testimonial-Cards{
-        flex-wrap:nowrap;
+        flex-wrap: nowrap;
         gap: 10px;
     }
 }
