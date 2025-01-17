@@ -28,8 +28,8 @@
     --buttonicon:#262626;
     --color-label:#F3DFD8 ;
     --color-shadow:#0062FF08;
-    --color-checkbox: #404040;
-
+    --color-checkbox: #404040; 
+    --icon-border:#333333;
 
     /* Fonts */
     --roboto-font:"Roboto Flex", serif;
