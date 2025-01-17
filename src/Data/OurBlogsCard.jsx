@@ -2,7 +2,7 @@ import blogcard1 from '../assets/images/blogs-2.png'
 import blogcard2 from '../assets/images/blogs-3.png'
 import blogcard3 from '../assets/images/blogs-4.png'
 
-const blogsData =[
+const designData =[
     {
         img:blogcard1,
         heading:'OPTIMIZING MOBILE USER EXPERIENCE FOR HIGHER CONVERSIONS',
@@ -22,4 +22,4 @@ const blogsData =[
         category: 'development',
     }
 ]
-export default blogsData;
+export default designData;

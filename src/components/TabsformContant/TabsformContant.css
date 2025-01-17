@@ -1,5 +1,5 @@
 .hm-contanier-contactus {
-  width: 747px;
+  width: 41.04%;
   border-radius: 14px;
   padding: 50px;
   background: var(--secondary-color);
@@ -8,7 +8,8 @@
 .hm-contanier-contactus-button {
   display: flex;
   gap: 12px;
-padding: 50px 50px 80px 50px;
+  padding-bottom: 80px;
+  justify-content: center;
 }
 .hm-tabbutton-form {
   border-radius: 12px;
@@ -19,34 +20,36 @@ padding: 50px 50px 80px 50px;
   font-family: var(--roboto-font);
   color: var(--text-color);
   text-align: center;
-  width: 220px;
   border: 1px solid var(--buttonicon);
+  
 }
-.hm-contatus-form{
+.hm-contatus-form {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  padding: 0px 50px 50px 50px;
+}
+.hm-button-form_1{
+  margin-bottom: 30px;
 }
 .hm-form-input {
   width: 100%;
   height: 88px;
   border-radius: 14px 100px 100px 14px;
   padding: 10px 24px 10px 14px;
-  background-color: var(--border-colorr);
+  background-color: var(  --border-color);
   font-family: var(--roboto-mono-font);
   font-size: 18px;
   font-weight: 500;
   line-height: 27px;
   color: var(--absolute-white);
-  border: 1px solid var( --buttonicon);
+  border: 1px solid var(--buttonicon);
 }
-.hm-form-input::placeholder{
+.hm-form-input::placeholder {
   font-size: 18px;
   font-weight: 500;
   line-height: 27px;
   color: var(--absolute-white);
-  font-family: var(--roboto-mono-font);  
+  font-family: var(--roboto-mono-font);
 }
 .hm-button-form label {
   font-family: var(--roboto-font);
@@ -70,15 +73,14 @@ padding: 50px 50px 80px 50px;
 }
 @media (max-width: 1440px) {
   .hm-contanier-contactus {
-    width: 550px;
     border-radius: 12px;
     padding: 40px;
     height: max-content;
   }
   .hm-contanier-contactus-button {
-    display: flex;
     gap: 8px;
-    padding: 40px 40px 60px 40px;
+    padding-bottom: 60px;
+
   }
   .hm-tabbutton-form {
     border-radius: 8px;
@@ -86,22 +88,21 @@ padding: 50px 50px 80px 50px;
     font-size: 14px;
     line-height: 21px;
   }
-  .hm-contatus-form{
+  .hm-contatus-form {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 0px 40px 40px 40px;
+    margin-top: 60px;
   }
   .hm-form-input {
     height: 72px;
     border-radius: 10px 100px 100px 10px;
-    padding: 8px 20px 8px 10px;
     font-size: 16px;
-  line-height: 24px;
+    line-height: 24px;
   }
-  .hm-form-input::placeholder{
+  .hm-form-input::placeholder {
     font-size: 16px;
-    line-height: 24px; 
+    line-height: 24px;
   }
   .hm-button-form label {
     font-size: 18px;
@@ -111,38 +112,38 @@ padding: 50px 50px 80px 50px;
     padding: 16px;
   }
 }
-@media (max-width: 750px) {
-  .hm-contanier-contactus {
-    width: 358px;
+@media(max-width:1100px){
+  .hm-contanier-contactus{
+    width: 100%;
     border-radius: 10px;
     padding: 30px;
-    height: max-content;
   }
   .hm-contanier-contactus-button {
-    padding: 30px 30px 50px 30px;
+    padding-bottom: 30px;
   }
   .hm-contatus-form{
     display: flex;
     flex-direction: column;
     gap: 16px;
-    padding: 0px 30px 30px 30px;
-    
+     margin-top: 50px;
   }
-  .hm-tabbutton-form:nth-child(1){
+
+  .hm-tabbutton-form:nth-child(1) {
     display: none;
-   }
+  }
   .hm-tabbutton-form {
     border-radius: 8px;
     padding: 14px 20px;
     font-size: 14px;
     line-height: 21px;
   }
+
   .hm-form-input {
     height: 64px;
     font-size: 14px;
-  line-height: 21px;
+    line-height: 21px;
   }
-  .hm-form-input::placeholder{
+  .hm-form-input::placeholder {
     font-size: 14px;
     line-height: 21px;
   }
@@ -152,5 +153,8 @@ padding: 50px 50px 80px 50px;
   }
   .Hm-form-icon {
     padding: 14px;
-  }
+    }
 }
+
+}
+

@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './RelatedBlogs.css'
 import Tittel from '../Tittel/Tittel'
 import OurBlogsCards from '../OurBlogsCards/OurBlogsCards'
 export default function RelatedBlogs() {
+   const [activeButton, setActiveButton] = useState('design');
   return (
     <div className='ourBlogs'>
         <div>
@@ -13,7 +14,7 @@ export default function RelatedBlogs() {
                 TextSpan={"ALL Testimonials"}
                 backColor={"var(--secondary-color)"}
                 />
-            <OurBlogsCards/>
+            <OurBlogsCards activeTab={activeButton}/>
         </div>
                   
     </div>

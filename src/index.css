@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@0;1&display=swap");
 
 * {
@@ -6,9 +6,6 @@
   padding: 0px;
   box-sizing: border-box;
 }
-
-
-
 :root{
     /* Colors */
     --primary-color:#0F0F0F;
@@ -22,6 +19,13 @@
     --absolute-white:#FFFFFF;
     --hover-color:#E7BEB1;  /*  and arrow color */
     --other-grey-color:#81807E;
+
+    --other2-grey-color: #CCCCCC;
+    
+
+    --checkbox-color :#404040;
+    --input-color :#333333;
+    --shadow-color :#242424;
     --p-color:#262626;
     --orange2-color:#F3DFD8;
     --border-color:#1F1F1F;

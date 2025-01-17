@@ -1,5 +1,5 @@
 .hm-Container-img {
-  width: 880px;
+ /* width: 880px;*/
   padding: 40px;
   border-radius: 14px;
   background: var(--secondary-color);
@@ -8,7 +8,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
 }
 .hm-heading {
   font-family: var(--roboto-font);
@@ -21,30 +20,34 @@
 .hm-seviesImg {
   display: flex;
   gap: 20px;
+  margin-top: 24px;
+  width: 100%;
 }
 .hm-seviesImg1{
   position: relative;
-  width: 390px;
-  height: 291px;
+  /*width: 390px;*/
+  width: 100%;
+  height: 251px;
   overflow: hidden;
   border-radius: 20px;
   border: 1px solid var(--buttonicon);
 }
 .hm-mark{
   width: 100%;
-  position: relative;
+  height: 100%;
+  /*position: relative;
   top: 50%;
   left: 50%;
   object-fit: cover;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);*/
 }
 .hm-text{
 position: absolute;
 bottom: 0;
 left: 0;
 padding: 20px;
-}
 
+}
 .Hm-ButtonServies {
   display: flex;
   align-items: center;
@@ -55,7 +58,7 @@ padding: 20px;
   padding: 10px;
   gap: 10px;
   border-radius: 100px;
-  background-color: var(   --absolute-white);
+  background-color: var( --absolute-white);
 }
 .Hm-Servies-text {
   font-family: var(--roboto-mono-font);
@@ -63,11 +66,12 @@ padding: 20px;
   font-weight: 400;
   line-height: 27px;
   text-align: center;
-  color: var(   --absolute-white);
+  color: var( --absolute-white);
 }
 @media (max-width: 1440px) {
   .hm-Container-img {
-    width: 665px;
+   /* width: 665px;*/
+   height: 356px;
     padding: 30px;
     border-radius: 12px;
   }
@@ -83,13 +87,14 @@ padding: 20px;
     gap: 8px;
   }
   .hm-seviesImg1 {
-    width: 297px;
+   /* width: 297px;*/
     height: 220px;
     border-radius: 10px;
   }
   .hm-seviesImg {
     display: flex;
     gap: 10px;
+    margin-top: 20px;
   }
   .hm-heading {
     font-size: 20px;

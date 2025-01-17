@@ -17,7 +17,7 @@ export default function Question() {
               TextSpan={"View All"}
             />
           </div>
-          <div className="HM-Margin hm-question-content">
+          <div className="HM-Margin hm-question-content ">
             <AccrodionQuestion/>
           <FormQuestion />
         </div>

@@ -12,7 +12,7 @@ padding: 16px;
     align-items: center;
     gap:10px ;
 }
-.hm-StoreCard-titelandicon h3{
+.hm-StoreCard-heading {
     font-family:var(--roboto-font);
     font-size: 30px;
     font-weight: 500;
@@ -26,14 +26,14 @@ padding: 16px;
         border-radius: 10px;
         padding: 14px;
         }   
-        .hm-StoreCard-titelandicon h3{
+        .hm-StoreCard-heading{
             line-height: 36px;
             font-size: 24px;
             
         }
 }
-@media (max-width:770px) {
-    .hm-StoreCard-titelandicon h3{
+@media (max-width:790px) {
+    .hm-StoreCard-heading{
         line-height: 30px;
         font-size: 20px;
         

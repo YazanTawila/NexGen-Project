@@ -1,9 +1,8 @@
 import React from 'react'
 import './ReasonsCardComponent.css'
-import rightArrow from '../../assets/images/right-arrow.svg'
 import ButtonTextandIcon from '../ButtonTextandIcon/ButtonTextandIcon'
 import ImageSrc from "../../assets/images/arrow.svg";
-import ButtonIcon from '../ButtonIcon/ButtonIcon';
+
 function ReasonsCardComponent({title,desc}) {
     return (
         <div className='YT-ReasonsCardComponent'>

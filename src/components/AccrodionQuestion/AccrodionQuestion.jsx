@@ -20,7 +20,7 @@ function QuestionItem({ question, answer, isOpen, onChange }) {
               onChange();
             }}
           >
-            {question}  <span><ButtonIcon iconStyle={'HM-button-icon'} ImgSrc={Imgicon}/></span>
+            {question}  <span><ButtonIcon  iconStyle={'HM-button-icon hm-toogel'} ImgSrc={Imgicon}/></span>
           </button>
           <div className={`hm-question-answer ${isOpen ? "show" : ""}`}>
             {answer}
