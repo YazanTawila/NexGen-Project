@@ -29,7 +29,7 @@
     height: 267px;
     padding: 50px 50px 150px;
     border-top-right-radius: 14px;
-   border-top-left-radius: 14px;
+    border-top-left-radius: 14px;
 
 }
 .LJ-BrilliantCards-Bottom{
@@ -121,7 +121,7 @@ transform: translate(-50%);
         border-bottom-left-radius: 10px;
     }
     .people img{
-        width: 290px;
+        width: 80%;
     }
     .LJ-h1{
         font-size: 18px;
@@ -134,6 +134,6 @@ transform: translate(-50%);
 }
 @media (max-width:390px){
     .LJ-BrilliantCards-Top{
-        width: 338px;
+        width: 100%;
     }
 }

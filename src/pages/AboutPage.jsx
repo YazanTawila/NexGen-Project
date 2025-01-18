@@ -15,9 +15,9 @@ export default function AboutPage() {
   return (
     <div>
         <NavBar/>
+        <Hero  HeroClass={'Hero'} showNumberAbout={true} HeroTitle={'Elevating Brands in the Digital Age'} showDesc={false} showSlider={false} HeroLeft={'YT-HeroLiftTow '}/>
         <BrilliantSection/>
         <Award/>
-        <Hero  HeroClass={'Hero'} showNumberAbout={true} HeroTitle={'Elevating Brands in the Digital Age'} showDesc={false} showSlider={false} HeroLeft={'YT-HeroLiftTow '}/>
         <OurAchievments/>
         <Testimonial/>
         <Question/>

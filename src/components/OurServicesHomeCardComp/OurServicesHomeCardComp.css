@@ -115,17 +115,7 @@
         padding: 24px;
     }
 }
-/* @media(max-width:840px){
-    .YT-ButtonandText{
-        display: none;
-    }
-    .YT-OurServicesbutton{
-        display: flex;
-    }
-    .YT-OurServicesCardLink{
-        padding: 24px;
-    }
-} */
+
 @media(max-width:390px){
     .YT-OurServicesDesc{
         display: flex;
