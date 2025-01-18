@@ -11,8 +11,6 @@ import ReasonsToChoose from '../components/ReasonsToChoose/ReasonsToChoose'
 import OurServicesHome from '../components/OurServicesHome/OurServicesHome'
 import OurWorks from '../components/OurWorks/OurWorks'
 import Hero from '../components/Hero/Hero'
-
-
 export default function HomePage() {
   return (
     <div>
