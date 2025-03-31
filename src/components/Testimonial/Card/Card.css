@@ -1,0 +1,185 @@
+.mahmoudItemsContainer {
+  width: 1780px;
+  height: 404px;
+  gap: 20px;
+  background-color: #1a1a1a;
+  border-radius: 16px;
+}
+.mahmoudparStyle {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  color: #f9efec;
+  font-family: "Roboto Flex", sans-serif;
+}
+.mahmoudContentStyle {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  color: #b3b3b2;
+  font-family: "Roboto Flex", sans-serif;
+}
+.mahmoudContentContainer {
+  width: 430px;
+  height: 284px;
+  padding: 40px;
+  gap: 24px;
+}
+.mahmoudVerticalDierction {
+  display: flex;
+  flex-direction: column;
+}
+.mahmoudImgContainer,
+.mahmoudImgContainer2 {
+  display: flex;
+  width: 430px;
+  height: 120px;
+  padding: 30px 40px 30px 40px;
+  gap: 39px;
+  background: #1f1f1f;
+}
+.mahmoudCard,
+.mahmoudCard2 {
+  width: 430px;
+  height: 404px;
+  border-radius: 16px 0px 0px 0px;
+  background-color: #1a1a1a;
+}
+.mahmoudParStyle {
+  width: 223px;
+  height: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  color: #f3dfd8;
+  font-family: "Roboto Flex", sans-serif;
+}
+.mahmoudParStyle2 {
+  width: 223px;
+  height: 27px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  color: #81807e;
+  font-family: "Roboto Flex", sans-serif;
+}
+.mahmoudIconStyle2 {
+  width: 24px;
+  height: 24px;
+  padding: 4.5px 3px 4.5px 3px;
+  cursor: pointer;
+}
+.mahmoudVector {
+  width: 18px;
+  height: 15px;
+  top: 4.5px;
+  left: 3px;
+  border: 1.5px 0px 0px 0px;
+  border: 1.5px solid #e7beb1;
+  color: #e7beb1;
+  border-radius: 50%;
+}
+.mahmoudCardContainer {
+  width: 1780px;
+  height: 404px;
+  gap: 20px;
+  display: flex;
+  margin-top: 10px;
+}
+@media screen and (min-width: 390px) and (max-width: 800px) {
+  .mahmoudCardContainer {
+    flex-direction: column;
+    width: 338px;
+    height: 857px;
+    gap: 10px;
+    margin-left: 6rem;
+  }
+  .mahmoudImgContainer2 {
+    display: none;
+  }
+  .mahmoudCard2 {
+    display: none;
+  }
+  .mahmoudparStyle {
+    width: 290px;
+    height: 54px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+  }
+  .mahmoudContentStyle {
+    width: 290px;
+    height: 84px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+  }
+  .mahmoudContentContainer {
+    width: 338px;
+    height: 202px;
+    padding: 24px 0px 0px 0px;
+    gap: 16px;
+  }
+}
+@media screen and (min-width: 801px) and (max-width: 1440px) {
+  .mahmoudCardContainer {
+    width: 1340px;
+    height: 357px;
+    gap: 10px;
+  }
+  .mahmoudparStyle {
+    width: 267.5px;
+    height: 66px;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+  }
+  .mahmoudContentStyle {
+    width: 267.5px;
+    height: 120px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+  }
+}
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+  .mahmoudCardContainer {
+    width: 1780px;
+    height: 404px;
+    gap: 20px;
+  }
+  .mahmoudparStyle {
+    width: 350px;
+    height: 72px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+  }
+  .mahmoudContentStyle {
+    width: 350px;
+    height: 108px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+  }
+}
